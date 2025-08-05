@@ -58,11 +58,19 @@
     }
     .option {
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       margin-bottom: 0.75rem;
     }
     .option input {
       margin-right: 0.5rem;
+    }
+    .option .text {
+      display: flex;
+      flex-direction: column;
+    }
+    .option .info {
+      font-size: 0.8rem;
+      color: #555;
     }
     main {
       flex: 1;
@@ -116,16 +124,32 @@
       <h2>Välj korrelationer</h2>
       <form id="correlationForm">
         <label class="option">
-          <input type="checkbox" value="ogiltig"> Ogiltig frånvaro
+          <input type="checkbox" value="ogiltig">
+          <div class="text">
+            Ogiltig frånvaro
+            <div class="info">Frånvaro utan giltig orsak.</div>
+          </div>
         </label>
         <label class="option">
-          <input type="checkbox" value="total"> Total frånvaro
+          <input type="checkbox" value="total">
+          <div class="text">
+            Total frånvaro
+            <div class="info">Inkluderar både giltig och ogiltig frånvaro.</div>
+          </div>
         </label>
         <label class="option">
-          <input type="checkbox" value="merit"> Meritvärde
+          <input type="checkbox" value="merit">
+          <div class="text">
+            Meritvärde
+            <div class="info">Summan av elevens betygspoäng.</div>
+          </div>
         </label>
         <label class="option">
-          <input type="checkbox" value="amnesvis"> Ämnesvis korrelation
+          <input type="checkbox" value="amnesvis">
+          <div class="text">
+            Ämnesvis korrelation
+            <div class="info">Samband mellan frånvaro och betyg i varje ämne.</div>
+          </div>
         </label>
         <button type="submit">Se korrelationer</button>
       </form>

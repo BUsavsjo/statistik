@@ -262,6 +262,7 @@
     const JSON_PATH = `json/${LASAR}`;
     let dataOgiltig = [], dataTotal = [], dataMerit = [];
     const lasarSet = new Set();
+    let cardOgiltig, cardTotal, cardMerit;
 
     function buildTable(data, tableId) {
       const table = document.getElementById(tableId);
@@ -319,12 +320,37 @@
       );
     }
 
+    function updateCards(ogiltigData, totalData, meritData) {
+      const avgOgiltig = ogiltigData.length
+        ? ogiltigData.reduce((a, r) => a + parseFloat(r.Korrelation || 0), 0) / ogiltigData.length
+        : 0;
+      const avgTotal = totalData.length
+        ? totalData.reduce((a, r) => a + parseFloat(r.Korrelation || 0), 0) / totalData.length
+        : 0;
+      const avgMerit = meritData.length
+        ? meritData.reduce((a, r) => a + parseFloat(r.Korrelation || 0), 0) / meritData.length
+        : 0;
+      if (!cardOgiltig) cardOgiltig = addCard("Medel korrelation – Ogiltig", "N/A");
+      if (!cardTotal) cardTotal = addCard("Medel korrelation – Total", "N/A");
+      if (!cardMerit) cardMerit = addCard("Medel korrelation – Meritvärde", "N/A");
+      cardOgiltig.querySelector(".value").textContent = ogiltigData.length ? avgOgiltig.toFixed(2) : "N/A";
+      cardOgiltig.className = `card ${getCorrClass(avgOgiltig)}`;
+      cardTotal.querySelector(".value").textContent = totalData.length ? avgTotal.toFixed(2) : "N/A";
+      cardTotal.className = `card ${getCorrClass(avgTotal)}`;
+      cardMerit.querySelector(".value").textContent = meritData.length ? avgMerit.toFixed(2) : "N/A";
+      cardMerit.className = `card ${getCorrClass(avgMerit)}`;
+    }
+
     function updateTables() {
       const year = document.getElementById("lasar-select").value;
       const grade = document.getElementById("arskurs-select").value;
-      buildTable(filterData(dataOgiltig, year, grade), "ogiltig");
-      buildTable(filterData(dataTotal, year, grade), "total");
-      buildTable(filterData(dataMerit, year, grade), "merit");
+      const ogiltigData = filterData(dataOgiltig, year, grade);
+      const totalData = filterData(dataTotal, year, grade);
+      const meritData = filterData(dataMerit, year, grade);
+      buildTable(ogiltigData, "ogiltig");
+      buildTable(totalData, "total");
+      buildTable(meritData, "merit");
+      updateCards(ogiltigData, totalData, meritData);
     }
 
     function updateYearDropdown() {
@@ -343,6 +369,7 @@
       card.className = `card ${klass}`;
       card.innerHTML = `<h3>${title}</h3><div class="value">${value}</div>`;
       document.getElementById("dashboard").appendChild(card);
+      return card;
     }
 
     function getCorrClass(v) {
@@ -398,18 +425,6 @@
         updateYearDropdown();
         updateTables();
 
-        const avgOgiltig = dataOgiltig.length
-          ? dataOgiltig.reduce((a, r) => a + parseFloat(r.Korrelation || 0), 0) / dataOgiltig.length
-          : 0;
-        const avgTotal = dataTotal.length
-          ? dataTotal.reduce((a, r) => a + parseFloat(r.Korrelation || 0), 0) / dataTotal.length
-          : 0;
-        const avgMerit = dataMerit.length
-          ? dataMerit.reduce((a, r) => a + parseFloat(r.Korrelation || 0), 0) / dataMerit.length
-          : 0;
-        addCard("Medel korrelation – Ogiltig", dataOgiltig.length ? avgOgiltig.toFixed(2) : "N/A", getCorrClass(avgOgiltig));
-        addCard("Medel korrelation – Total", dataTotal.length ? avgTotal.toFixed(2) : "N/A", getCorrClass(avgTotal));
-        addCard("Medel korrelation – Meritvärde", dataMerit.length ? avgMerit.toFixed(2) : "N/A", getCorrClass(avgMerit));
         medelMerit.forEach(r => {
           const title = `Åk ${r["Årskurs"]} – Medel meritvärde`;
           addCard(title, r["MedelMeritvärde"].toFixed(2));

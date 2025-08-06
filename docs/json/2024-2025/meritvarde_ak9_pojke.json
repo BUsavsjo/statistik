@@ -1,0 +1,20 @@
+[
+  {
+    "Ämne": "Meritvärde",
+    "Frånvarotyp": "ogiltig_franvaro_pct",
+    "Gender": "pojke",
+    "Korrelation": -0.53,
+    "Styrka": "stark",
+    "Läsår": "2024-2025",
+    "Årskurs": "9"
+  },
+  {
+    "Ämne": "Meritvärde",
+    "Frånvarotyp": "total_franvaro_pct",
+    "Gender": "pojke",
+    "Korrelation": -0.66,
+    "Styrka": "stark",
+    "Läsår": "2024-2025",
+    "Årskurs": "9"
+  }
+]

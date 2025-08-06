@@ -171,6 +171,12 @@
       background-color: #e8f5e9;
     }
 
+    .grade-group-row td {
+      background: #bbdefb;
+      font-weight: 600;
+      border-top: 2px solid #90caf9;
+    }
+
     .info-box {
       background: var(--card-bg);
       box-shadow: var(--shadow);
@@ -280,11 +286,15 @@
     let cardOgiltig, cardTotal, cardMerit;
     let meritCards = [];
 
-    function buildTable(data, tableId) {
+    function buildTable(data, tableId, selectedGrade) {
       const table = document.getElementById(tableId);
       table.innerHTML = "";
       if (!data.length) return;
-      const header = Object.keys(data[0]);
+      const grades = [...new Set(data.map(r => r["Årskurs"]))].sort();
+      let header = Object.keys(data[0]);
+      if (selectedGrade === "alla" && grades.length > 1) {
+        header = header.filter(h => h !== "Årskurs");
+      }
       const thead = table.createTHead();
       const row = thead.insertRow();
       header.forEach((key, i) => {
@@ -294,17 +304,28 @@
         row.appendChild(th);
       });
       const tbody = table.createTBody();
-      data.forEach(r => {
-        const tr = tbody.insertRow();
-        header.forEach(key => {
-          const td = tr.insertCell();
-          td.textContent = r[key];
-          if (key === "Korrelation") {
-            const v = parseFloat(r[key]);
-            if (v > 0.2) td.classList.add("positiv");
-            if (v < -0.2) td.classList.add("negativ");
-          }
-        });
+      grades.forEach(g => {
+        if (selectedGrade === "alla" && grades.length > 1) {
+          const trGroup = tbody.insertRow();
+          trGroup.classList.add("grade-group-row");
+          const tdGroup = trGroup.insertCell();
+          tdGroup.textContent = `Årskurs ${g}`;
+          tdGroup.colSpan = header.length;
+        }
+        data
+          .filter(r => r["Årskurs"] === g)
+          .forEach(r => {
+            const tr = tbody.insertRow();
+            header.forEach(key => {
+              const td = tr.insertCell();
+              td.textContent = r[key];
+              if (key === "Korrelation") {
+                const v = parseFloat(r[key]);
+                if (v > 0.2) td.classList.add("positiv");
+                if (v < -0.2) td.classList.add("negativ");
+              }
+            });
+          });
       });
     }
 
@@ -399,9 +420,9 @@
       const ogiltigData = filterData(dataOgiltig, year, grade, gender);
       const totalData = filterData(dataTotal, year, grade, gender);
       const meritData = filterData(dataMerit, year, grade, gender);
-      buildTable(ogiltigData, "ogiltig");
-      buildTable(totalData, "total");
-      buildTable(meritData, "merit");
+        buildTable(ogiltigData, "ogiltig", grade);
+        buildTable(totalData, "total", grade);
+        buildTable(meritData, "merit", grade);
       updateCards(ogiltigData, totalData, meritData);
       updateMeritCards(year, grade, gender);
     }

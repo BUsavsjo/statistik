@@ -1,0 +1,30 @@
+[
+  {
+    "Ämne": "Meritvärde",
+    "Gender": "pojke",
+    "Värde": 133.89,
+    "Årskurs": "6",
+    "Läsår": "2024-2025"
+  },
+  {
+    "Ämne": "Meritvärde",
+    "Gender": "flicka",
+    "Värde": 148.66,
+    "Årskurs": "6",
+    "Läsår": "2024-2025"
+  },
+  {
+    "Ämne": "Meritvärde",
+    "Gender": "pojke",
+    "Värde": 175.23,
+    "Årskurs": "9",
+    "Läsår": "2024-2025"
+  },
+  {
+    "Ämne": "Meritvärde",
+    "Gender": "flicka",
+    "Värde": 223.36,
+    "Årskurs": "9",
+    "Läsår": "2024-2025"
+  }
+]

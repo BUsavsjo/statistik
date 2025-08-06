@@ -1,0 +1,101 @@
+[
+  {
+    "Ämne": "BI",
+    "Frånvarotyp": "ogiltig_franvaro_pct",
+    "Gender": "pojke",
+    "Korrelation": -0.2,
+    "Styrka": "svag",
+    "Årskurs": "6",
+    "Läsår": "2024-2025"
+  },
+  {
+    "Ämne": "En",
+    "Frånvarotyp": "ogiltig_franvaro_pct",
+    "Gender": "pojke",
+    "Korrelation": 0.03,
+    "Styrka": "ingen",
+    "Årskurs": "6",
+    "Läsår": "2024-2025"
+  },
+  {
+    "Ämne": "Hkk",
+    "Frånvarotyp": "ogiltig_franvaro_pct",
+    "Gender": "pojke",
+    "Korrelation": -0.21,
+    "Styrka": "svag",
+    "Årskurs": "6",
+    "Läsår": "2024-2025"
+  },
+  {
+    "Ämne": "idh",
+    "Frånvarotyp": "ogiltig_franvaro_pct",
+    "Gender": "pojke",
+    "Korrelation": -0.52,
+    "Styrka": "stark",
+    "Årskurs": "6",
+    "Läsår": "2024-2025"
+  },
+  {
+    "Ämne": "Ma",
+    "Frånvarotyp": "ogiltig_franvaro_pct",
+    "Gender": "pojke",
+    "Korrelation": -0.11,
+    "Styrka": "svag",
+    "Årskurs": "6",
+    "Läsår": "2024-2025"
+  },
+  {
+    "Ämne": "mu",
+    "Frånvarotyp": "ogiltig_franvaro_pct",
+    "Gender": "pojke",
+    "Korrelation": -0.03,
+    "Styrka": "ingen",
+    "Årskurs": "6",
+    "Läsår": "2024-2025"
+  },
+  {
+    "Ämne": "No",
+    "Frånvarotyp": "ogiltig_franvaro_pct",
+    "Gender": "pojke",
+    "Korrelation": null,
+    "Styrka": "saknas",
+    "Årskurs": "6",
+    "Läsår": "2024-2025"
+  },
+  {
+    "Ämne": "So",
+    "Frånvarotyp": "ogiltig_franvaro_pct",
+    "Gender": "pojke",
+    "Korrelation": -0.3,
+    "Styrka": "svag",
+    "Årskurs": "6",
+    "Läsår": "2024-2025"
+  },
+  {
+    "Ämne": "Sv",
+    "Frånvarotyp": "ogiltig_franvaro_pct",
+    "Gender": "pojke",
+    "Korrelation": -0.02,
+    "Styrka": "ingen",
+    "Årskurs": "6",
+    "Läsår": "2024-2025"
+  },
+  {
+    "Ämne": "Sva",
+    "Frånvarotyp": "ogiltig_franvaro_pct",
+    "Gender": "pojke",
+    "Korrelation": -0.05,
+    "Styrka": "ingen",
+    "Årskurs": "6",
+    "Läsår": "2024-2025"
+  },
+  {
+    "Ämne": "Tk",
+    "Frånvarotyp": "ogiltig_franvaro_pct",
+    "Gender": "pojke",
+    "Korrelation": null,
+    "Styrka": "saknas",
+    "Årskurs": "6",
+    "Läsår": "2024-2025"
+  }
+]

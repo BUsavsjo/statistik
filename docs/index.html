@@ -106,6 +106,12 @@
       font-weight: 600;
     }
 
+    .card .info {
+      font-size: 0.875em;
+      color: #555;
+      margin-top: 0.5em;
+    }
+
     .corr-low .value {
       color: #2e7d32;
     }
@@ -330,9 +336,28 @@
       const avgMerit = meritData.length
         ? meritData.reduce((a, r) => a + parseFloat(r.Korrelation || 0), 0) / meritData.length
         : 0;
-      if (!cardOgiltig) cardOgiltig = addCard("Medel korrelation – Ogiltig", "N/A");
-      if (!cardTotal) cardTotal = addCard("Medel korrelation – Total", "N/A");
-      if (!cardMerit) cardMerit = addCard("Medel korrelation – Meritvärde", "N/A");
+      const infoText = "Korrelationen visar styrkan i sambandet. Värden nära 1 eller −1 betyder starkt samband.";
+      if (!cardOgiltig)
+        cardOgiltig = addCard(
+          "Medel korrelation – Ogiltig",
+          "N/A",
+          "",
+          infoText
+        );
+      if (!cardTotal)
+        cardTotal = addCard(
+          "Medel korrelation – Total",
+          "N/A",
+          "",
+          infoText
+        );
+      if (!cardMerit)
+        cardMerit = addCard(
+          "Medel korrelation – Meritvärde",
+          "N/A",
+          "",
+          infoText
+        );
       cardOgiltig.querySelector(".value").textContent = ogiltigData.length ? avgOgiltig.toFixed(2) : "N/A";
       cardOgiltig.className = `card ${getCorrClass(avgOgiltig)}`;
       cardTotal.querySelector(".value").textContent = totalData.length ? avgTotal.toFixed(2) : "N/A";
@@ -364,10 +389,12 @@
       });
     }
 
-    function addCard(title, value, klass = "") {
+    function addCard(title, value, klass = "", info = "") {
       const card = document.createElement("div");
       card.className = `card ${klass}`;
-      card.innerHTML = `<h3>${title}</h3><div class="value">${value}</div>`;
+      card.innerHTML = `<h3>${title}</h3><div class="value">${value}</div>${
+        info ? `<div class="info">${info}</div>` : ""
+      }`;
       document.getElementById("dashboard").appendChild(card);
       return card;
     }

@@ -275,8 +275,10 @@
     const LASAR = "2024-2025";
     const JSON_PATH = `json/${LASAR}`;
     let dataOgiltig = [], dataTotal = [], dataMerit = [];
+    let medelMerit = [], medelMeritGender = [];
     const lasarSet = new Set();
     let cardOgiltig, cardTotal, cardMerit;
+    let meritCards = [];
 
     function buildTable(data, tableId) {
       const table = document.getElementById(tableId);
@@ -331,7 +333,7 @@
       return data.filter(r =>
         (year === "alla" || r["Läsår"] === year) &&
         (grade === "alla" || String(r["Årskurs"]) === grade) &&
-        (gender === "alla" || !r["Gender"] || r["Gender"] === gender)
+        (gender === "alla" || r["Gender"] === gender)
       );
     }
 
@@ -375,6 +377,21 @@
       cardMerit.className = `card ${getCorrClass(avgMerit)}`;
     }
 
+    function updateMeritCards(year, grade, gender) {
+      meritCards.forEach(c => c.remove());
+      meritCards = [];
+      const source = gender === "alla" ? medelMerit : medelMeritGender.filter(r => r.Gender === gender);
+      source
+        .filter(r => (grade === "alla" || String(r["Årskurs"]) === grade) && (year === "alla" || !r["Läsår"] || r["Läsår"] === year))
+        .forEach(r => {
+          const value = (r["MedelMeritvärde"] ?? r["Värde"]).toFixed(2);
+          const title = gender === "alla"
+            ? `Åk ${r["Årskurs"]} – Medel meritvärde`
+            : `Åk ${r["Årskurs"]} – Medel meritvärde (${r["Gender"]})`;
+          meritCards.push(addCard(title, value));
+        });
+    }
+
     function updateTables() {
       const year = document.getElementById("lasar-select").value;
       const grade = document.getElementById("arskurs-select").value;
@@ -386,6 +403,7 @@
       buildTable(totalData, "total");
       buildTable(meritData, "merit");
       updateCards(ogiltigData, totalData, meritData);
+      updateMeritCards(year, grade, gender);
     }
 
     function updateYearDropdown() {
@@ -418,7 +436,7 @@
 
     document.getElementById("lasar-select").addEventListener("change", updateTables);
     document.getElementById("arskurs-select").addEventListener("change", updateTables);
-    document.getElementById("gender-select").addEventListener("change", updateTables);
+    document.getElementById("gender-select").addEventListener("change", e => readJson(e.target.value));
     document.querySelectorAll(".tab").forEach(btn => {
       btn.addEventListener("click", () => {
         document.querySelectorAll(".tab").forEach(b => b.classList.remove("active"));
@@ -428,25 +446,26 @@
       });
     });
 
-    async function readJson() {
-      const files = [
-        "ogiltig_franvaro_pct_ak6.json",
-        "ogiltig_franvaro_pct_ak9.json",
-        "ogiltig_franvaro_pct_ak6_flicka.json",
-        "ogiltig_franvaro_pct_ak9_flicka.json",
-        "ogiltig_franvaro_pct_ak6_pojke.json",
-        "ogiltig_franvaro_pct_ak9_pojke.json",
-        "total_franvaro_pct_ak6.json",
-        "total_franvaro_pct_ak9.json",
-        "total_franvaro_pct_ak6_flicka.json",
-        "total_franvaro_pct_ak9_flicka.json",
-        "total_franvaro_pct_ak6_pojke.json",
-        "total_franvaro_pct_ak9_pojke.json",
-        "meritvarde_ak6.json",
-        "meritvarde_ak9.json",
-        "medel_meritvarde.json",
-        "medel_meritvarde_gender.json"
-      ];
+    async function readJson(gender) {
+      const files = gender === "alla"
+        ? [
+            "ogiltig_franvaro_pct_ak6.json",
+            "ogiltig_franvaro_pct_ak9.json",
+            "total_franvaro_pct_ak6.json",
+            "total_franvaro_pct_ak9.json",
+            "meritvarde_ak6.json",
+            "meritvarde_ak9.json",
+            "medel_meritvarde.json"
+          ]
+        : [
+            `ogiltig_franvaro_pct_ak6_${gender}.json`,
+            `ogiltig_franvaro_pct_ak9_${gender}.json`,
+            `total_franvaro_pct_ak6_${gender}.json`,
+            `total_franvaro_pct_ak9_${gender}.json`,
+            `meritvarde_ak6_${gender}.json`,
+            `meritvarde_ak9_${gender}.json`,
+            "medel_meritvarde_gender.json"
+          ];
       try {
         const jsondata = await Promise.all(files.map(async f => {
           try {
@@ -463,46 +482,29 @@
             return [];
           }
         }));
-        const assignGender = (arr, g) => arr.map(r => ({ ...r, Gender: r.Gender || g }));
-        dataOgiltig = [].concat(
-          assignGender(jsondata[0], "alla"),
-          assignGender(jsondata[1], "alla"),
-          assignGender(jsondata[2], "flicka"),
-          assignGender(jsondata[3], "flicka"),
-          assignGender(jsondata[4], "pojke"),
-          assignGender(jsondata[5], "pojke")
-        );
-        dataTotal = [].concat(
-          assignGender(jsondata[6], "alla"),
-          assignGender(jsondata[7], "alla"),
-          assignGender(jsondata[8], "flicka"),
-          assignGender(jsondata[9], "flicka"),
-          assignGender(jsondata[10], "pojke"),
-          assignGender(jsondata[11], "pojke")
-        );
-        dataMerit = jsondata[12].concat(jsondata[13]);
-        const medelMerit = jsondata[14] || [];
-        const medelMeritGender = jsondata[15] || [];
+        const assignGender = arr => arr.map(r => ({ ...r, Gender: gender }));
+        dataOgiltig = assignGender(jsondata[0].concat(jsondata[1]));
+        dataTotal = assignGender(jsondata[2].concat(jsondata[3]));
+        dataMerit = assignGender(jsondata[4].concat(jsondata[5]));
+        if (gender === "alla") {
+          medelMerit = jsondata[6] || [];
+          medelMeritGender = [];
+        } else {
+          medelMerit = [];
+          medelMeritGender = jsondata[6] || [];
+        }
 
+        lasarSet.clear();
         [...dataOgiltig, ...dataTotal, ...dataMerit].forEach(r => lasarSet.add(r["Läsår"]));
         updateYearDropdown();
         updateTables();
-
-        medelMerit.forEach(r => {
-          const title = `Åk ${r["Årskurs"]} – Medel meritvärde`;
-          addCard(title, r["MedelMeritvärde"].toFixed(2));
-        });
-        medelMeritGender.forEach(r => {
-          const title = `Åk ${r["Årskurs"]} – Medel meritvärde (${r["Gender"]})`;
-          addCard(title, r["Värde"].toFixed(2));
-        });
       } catch (error) {
         console.error("Fel vid läsning av JSON-data:", error);
         addCard("Fel", "Kunde inte ladda data", "corr-high");
       }
     }
 
-    readJson();
+    readJson(document.getElementById("gender-select").value);
   </script>
 </body>
 </html>

@@ -2,15 +2,15 @@
   {
     "Ämne": "Meritvärde",
     "Frånvarotyp": "ogiltig_franvaro_pct",
-    "Korrelation": -0.31,
-    "Styrka": "måttlig",
+    "Korrelation": -0.28,
+    "Styrka": "svag",
     "Läsår": "2024-2025",
     "Årskurs": "6"
   },
   {
     "Ämne": "Meritvärde",
     "Frånvarotyp": "total_franvaro_pct",
-    "Korrelation": -0.59,
+    "Korrelation": -0.53,
     "Styrka": "stark",
     "Läsår": "2024-2025",
     "Årskurs": "6"

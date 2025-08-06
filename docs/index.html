@@ -212,6 +212,14 @@
         <option value="9">Åk 9</option>
       </select>
     </div>
+    <div class="filter-group">
+      <label for="gender-select">Kön:</label>
+      <select id="gender-select">
+        <option value="alla">Alla</option>
+        <option value="pojke">Pojke</option>
+        <option value="flicka">Flicka</option>
+      </select>
+    </div>
     <div class="tabs">
       <button class="tab active" data-tab="ogiltig-section">Ogiltig</button>
       <button class="tab" data-tab="total-section">Total</button>
@@ -319,10 +327,11 @@
       indicator.textContent = dir === "asc" ? "▲" : "▼";
     }
 
-    function filterData(data, year, grade) {
+    function filterData(data, year, grade, gender) {
       return data.filter(r =>
         (year === "alla" || r["Läsår"] === year) &&
-        (grade === "alla" || String(r["Årskurs"]) === grade)
+        (grade === "alla" || String(r["Årskurs"]) === grade) &&
+        (gender === "alla" || !r["Gender"] || r["Gender"] === gender)
       );
     }
 
@@ -369,9 +378,10 @@
     function updateTables() {
       const year = document.getElementById("lasar-select").value;
       const grade = document.getElementById("arskurs-select").value;
-      const ogiltigData = filterData(dataOgiltig, year, grade);
-      const totalData = filterData(dataTotal, year, grade);
-      const meritData = filterData(dataMerit, year, grade);
+      const gender = document.getElementById("gender-select").value;
+      const ogiltigData = filterData(dataOgiltig, year, grade, gender);
+      const totalData = filterData(dataTotal, year, grade, gender);
+      const meritData = filterData(dataMerit, year, grade, gender);
       buildTable(ogiltigData, "ogiltig");
       buildTable(totalData, "total");
       buildTable(meritData, "merit");
@@ -408,6 +418,7 @@
 
     document.getElementById("lasar-select").addEventListener("change", updateTables);
     document.getElementById("arskurs-select").addEventListener("change", updateTables);
+    document.getElementById("gender-select").addEventListener("change", updateTables);
     document.querySelectorAll(".tab").forEach(btn => {
       btn.addEventListener("click", () => {
         document.querySelectorAll(".tab").forEach(b => b.classList.remove("active"));
@@ -421,11 +432,20 @@
       const files = [
         "ogiltig_franvaro_pct_ak6.json",
         "ogiltig_franvaro_pct_ak9.json",
+        "ogiltig_franvaro_pct_ak6_flicka.json",
+        "ogiltig_franvaro_pct_ak9_flicka.json",
+        "ogiltig_franvaro_pct_ak6_pojke.json",
+        "ogiltig_franvaro_pct_ak9_pojke.json",
         "total_franvaro_pct_ak6.json",
         "total_franvaro_pct_ak9.json",
+        "total_franvaro_pct_ak6_flicka.json",
+        "total_franvaro_pct_ak9_flicka.json",
+        "total_franvaro_pct_ak6_pojke.json",
+        "total_franvaro_pct_ak9_pojke.json",
         "meritvarde_ak6.json",
         "meritvarde_ak9.json",
-        "medel_meritvarde.json"
+        "medel_meritvarde.json",
+        "medel_meritvarde_gender.json"
       ];
       try {
         const jsondata = await Promise.all(files.map(async f => {
@@ -443,10 +463,26 @@
             return [];
           }
         }));
-        dataOgiltig = jsondata[0].concat(jsondata[1]);
-        dataTotal = jsondata[2].concat(jsondata[3]);
-        dataMerit = jsondata[4].concat(jsondata[5]);
-        const medelMerit = jsondata[6] || [];
+        const assignGender = (arr, g) => arr.map(r => ({ ...r, Gender: r.Gender || g }));
+        dataOgiltig = [].concat(
+          assignGender(jsondata[0], "alla"),
+          assignGender(jsondata[1], "alla"),
+          assignGender(jsondata[2], "flicka"),
+          assignGender(jsondata[3], "flicka"),
+          assignGender(jsondata[4], "pojke"),
+          assignGender(jsondata[5], "pojke")
+        );
+        dataTotal = [].concat(
+          assignGender(jsondata[6], "alla"),
+          assignGender(jsondata[7], "alla"),
+          assignGender(jsondata[8], "flicka"),
+          assignGender(jsondata[9], "flicka"),
+          assignGender(jsondata[10], "pojke"),
+          assignGender(jsondata[11], "pojke")
+        );
+        dataMerit = jsondata[12].concat(jsondata[13]);
+        const medelMerit = jsondata[14] || [];
+        const medelMeritGender = jsondata[15] || [];
 
         [...dataOgiltig, ...dataTotal, ...dataMerit].forEach(r => lasarSet.add(r["Läsår"]));
         updateYearDropdown();
@@ -455,6 +491,10 @@
         medelMerit.forEach(r => {
           const title = `Åk ${r["Årskurs"]} – Medel meritvärde`;
           addCard(title, r["MedelMeritvärde"].toFixed(2));
+        });
+        medelMeritGender.forEach(r => {
+          const title = `Åk ${r["Årskurs"]} – Medel meritvärde (${r["Gender"]})`;
+          addCard(title, r["Värde"].toFixed(2));
         });
       } catch (error) {
         console.error("Fel vid läsning av JSON-data:", error);

@@ -1,0 +1,101 @@
+[
+  {
+    "Ämne": "BI",
+    "Frånvarotyp": "giltig_franvaro_pct",
+    "Gender": "flicka",
+    "Korrelation": -0.32,
+    "Styrka": "måttlig",
+    "Årskurs": "6",
+    "Läsår": "2024-2025"
+  },
+  {
+    "Ämne": "En",
+    "Frånvarotyp": "giltig_franvaro_pct",
+    "Gender": "flicka",
+    "Korrelation": -0.46,
+    "Styrka": "måttlig",
+    "Årskurs": "6",
+    "Läsår": "2024-2025"
+  },
+  {
+    "Ämne": "Hkk",
+    "Frånvarotyp": "giltig_franvaro_pct",
+    "Gender": "flicka",
+    "Korrelation": -0.32,
+    "Styrka": "måttlig",
+    "Årskurs": "6",
+    "Läsår": "2024-2025"
+  },
+  {
+    "Ämne": "idh",
+    "Frånvarotyp": "giltig_franvaro_pct",
+    "Gender": "flicka",
+    "Korrelation": -0.62,
+    "Styrka": "stark",
+    "Årskurs": "6",
+    "Läsår": "2024-2025"
+  },
+  {
+    "Ämne": "Ma",
+    "Frånvarotyp": "giltig_franvaro_pct",
+    "Gender": "flicka",
+    "Korrelation": -0.57,
+    "Styrka": "stark",
+    "Årskurs": "6",
+    "Läsår": "2024-2025"
+  },
+  {
+    "Ämne": "mu",
+    "Frånvarotyp": "giltig_franvaro_pct",
+    "Gender": "flicka",
+    "Korrelation": -0.42,
+    "Styrka": "måttlig",
+    "Årskurs": "6",
+    "Läsår": "2024-2025"
+  },
+  {
+    "Ämne": "No",
+    "Frånvarotyp": "giltig_franvaro_pct",
+    "Gender": "flicka",
+    "Korrelation": null,
+    "Styrka": "saknas",
+    "Årskurs": "6",
+    "Läsår": "2024-2025"
+  },
+  {
+    "Ämne": "So",
+    "Frånvarotyp": "giltig_franvaro_pct",
+    "Gender": "flicka",
+    "Korrelation": -0.41,
+    "Styrka": "måttlig",
+    "Årskurs": "6",
+    "Läsår": "2024-2025"
+  },
+  {
+    "Ämne": "Sv",
+    "Frånvarotyp": "giltig_franvaro_pct",
+    "Gender": "flicka",
+    "Korrelation": -0.4,
+    "Styrka": "måttlig",
+    "Årskurs": "6",
+    "Läsår": "2024-2025"
+  },
+  {
+    "Ämne": "Sva",
+    "Frånvarotyp": "giltig_franvaro_pct",
+    "Gender": "flicka",
+    "Korrelation": -0.37,
+    "Styrka": "måttlig",
+    "Årskurs": "6",
+    "Läsår": "2024-2025"
+  },
+  {
+    "Ämne": "Tk",
+    "Frånvarotyp": "giltig_franvaro_pct",
+    "Gender": "flicka",
+    "Korrelation": null,
+    "Styrka": "saknas",
+    "Årskurs": "6",
+    "Läsår": "2024-2025"
+  }
+]

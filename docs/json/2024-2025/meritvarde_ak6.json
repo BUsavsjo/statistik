@@ -14,5 +14,13 @@
     "Styrka": "stark",
     "Läsår": "2024-2025",
     "Årskurs": "6"
+  },
+  {
+    "Ämne": "Meritvärde",
+    "Frånvarotyp": "giltig_franvaro_pct",
+    "Korrelation": -0.47,
+    "Styrka": "måttlig",
+    "Läsår": "2024-2025",
+    "Årskurs": "6"
   }
 ]

@@ -228,6 +228,7 @@
     </div>
     <div class="tabs">
       <button class="tab active" data-tab="ogiltig-section">Ogiltig</button>
+      <button class="tab" data-tab="giltig-section">Giltig</button>
       <button class="tab" data-tab="total-section">Total</button>
       <button class="tab" data-tab="merit-section">Merit</button>
     </div>
@@ -241,6 +242,13 @@
       <h2>Ogiltig frånvaro</h2>
       <div class="table-wrapper">
         <table id="ogiltig"></table>
+      </div>
+    </div>
+
+    <div id="giltig-section" class="tab-content">
+      <h2>Giltig frånvaro</h2>
+      <div class="table-wrapper">
+        <table id="giltig"></table>
       </div>
     </div>
 
@@ -280,10 +288,10 @@
   <script>
     const LASAR = "2024-2025";
     const JSON_PATH = `json/${LASAR}`;
-    let dataOgiltig = [], dataTotal = [], dataMerit = [];
+    let dataOgiltig = [], dataGiltig = [], dataTotal = [], dataMerit = [];
     let medelMerit = [], medelMeritGender = [];
     const lasarSet = new Set();
-    let cardOgiltig, cardTotal, cardMerit;
+    let cardOgiltig, cardGiltig, cardTotal, cardMerit;
     let meritCards = [];
 
     function buildTable(data, tableId, selectedGrade) {
@@ -358,12 +366,15 @@
       );
     }
 
-    function updateCards(ogiltigData, totalData, meritData) {
+    function updateCards(ogiltigData, totalData, giltigData, meritData) {
       const avgOgiltig = ogiltigData.length
         ? ogiltigData.reduce((a, r) => a + parseFloat(r.Korrelation || 0), 0) / ogiltigData.length
         : 0;
       const avgTotal = totalData.length
         ? totalData.reduce((a, r) => a + parseFloat(r.Korrelation || 0), 0) / totalData.length
+        : 0;
+      const avgGiltig = giltigData.length
+        ? giltigData.reduce((a, r) => a + parseFloat(r.Korrelation || 0), 0) / giltigData.length
         : 0;
       const avgMerit = meritData.length
         ? meritData.reduce((a, r) => a + parseFloat(r.Korrelation || 0), 0) / meritData.length
@@ -372,6 +383,13 @@
       if (!cardOgiltig)
         cardOgiltig = addCard(
           "Medel korrelation – Ogiltig",
+          "N/A",
+          "",
+          infoText
+        );
+      if (!cardGiltig)
+        cardGiltig = addCard(
+          "Medel korrelation – Giltig",
           "N/A",
           "",
           infoText
@@ -392,6 +410,8 @@
         );
       cardOgiltig.querySelector(".value").textContent = ogiltigData.length ? avgOgiltig.toFixed(2) : "N/A";
       cardOgiltig.className = `card ${getCorrClass(avgOgiltig)}`;
+      cardGiltig.querySelector(".value").textContent = giltigData.length ? avgGiltig.toFixed(2) : "N/A";
+      cardGiltig.className = `card ${getCorrClass(avgGiltig)}`;
       cardTotal.querySelector(".value").textContent = totalData.length ? avgTotal.toFixed(2) : "N/A";
       cardTotal.className = `card ${getCorrClass(avgTotal)}`;
       cardMerit.querySelector(".value").textContent = meritData.length ? avgMerit.toFixed(2) : "N/A";
@@ -418,12 +438,14 @@
       const grade = document.getElementById("arskurs-select").value;
       const gender = document.getElementById("gender-select").value;
       const ogiltigData = filterData(dataOgiltig, year, grade, gender);
+      const giltigData = filterData(dataGiltig, year, grade, gender);
       const totalData = filterData(dataTotal, year, grade, gender);
       const meritData = filterData(dataMerit, year, grade, gender);
         buildTable(ogiltigData, "ogiltig", grade);
+        buildTable(giltigData, "giltig", grade);
         buildTable(totalData, "total", grade);
         buildTable(meritData, "merit", grade);
-      updateCards(ogiltigData, totalData, meritData);
+      updateCards(ogiltigData, totalData, giltigData, meritData);
       updateMeritCards(year, grade, gender);
     }
 
@@ -474,6 +496,8 @@
             "ogiltig_franvaro_pct_ak9.json",
             "total_franvaro_pct_ak6.json",
             "total_franvaro_pct_ak9.json",
+            "giltig_franvaro_pct_ak6.json",
+            "giltig_franvaro_pct_ak9.json",
             "meritvarde_ak6.json",
             "meritvarde_ak9.json",
             "medel_meritvarde.json"
@@ -483,6 +507,8 @@
             `ogiltig_franvaro_pct_ak9_${gender}.json`,
             `total_franvaro_pct_ak6_${gender}.json`,
             `total_franvaro_pct_ak9_${gender}.json`,
+            `giltig_franvaro_pct_ak6_${gender}.json`,
+            `giltig_franvaro_pct_ak9_${gender}.json`,
             `meritvarde_ak6_${gender}.json`,
             `meritvarde_ak9_${gender}.json`,
             "medel_meritvarde_gender.json"
@@ -506,17 +532,18 @@
         const assignGender = arr => arr.map(r => ({ ...r, Gender: gender }));
         dataOgiltig = assignGender(jsondata[0].concat(jsondata[1]));
         dataTotal = assignGender(jsondata[2].concat(jsondata[3]));
-        dataMerit = assignGender(jsondata[4].concat(jsondata[5]));
+        dataGiltig = assignGender(jsondata[4].concat(jsondata[5]));
+        dataMerit = assignGender(jsondata[6].concat(jsondata[7]));
         if (gender === "alla") {
-          medelMerit = jsondata[6] || [];
+          medelMerit = jsondata[8] || [];
           medelMeritGender = [];
         } else {
           medelMerit = [];
-          medelMeritGender = jsondata[6] || [];
+          medelMeritGender = jsondata[8] || [];
         }
 
         lasarSet.clear();
-        [...dataOgiltig, ...dataTotal, ...dataMerit].forEach(r => lasarSet.add(r["Läsår"]));
+        [...dataOgiltig, ...dataTotal, ...dataGiltig, ...dataMerit].forEach(r => lasarSet.add(r["Läsår"]));
         updateYearDropdown();
         updateTables();
       } catch (error) {

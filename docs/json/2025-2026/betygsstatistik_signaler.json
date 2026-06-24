@@ -1,0 +1,55 @@
+[
+  {
+    "lasar": "2025-2026",
+    "arskurs": 6,
+    "skolenhetskod": "13654995",
+    "skolenhetsnamn": null,
+    "signaltyp": "hog_andel_f",
+    "amne": "Ma",
+    "amnesnamn": "Matematik",
+    "varde": 28.57,
+    "antal_i_berakning": 35
+  },
+  {
+    "lasar": "2025-2026",
+    "arskurs": 6,
+    "skolenhetskod": "13654995",
+    "skolenhetsnamn": null,
+    "signaltyp": "hog_andel_f",
+    "amne": "Sva",
+    "amnesnamn": "Svenska som andraspråk",
+    "varde": 31.43,
+    "antal_i_berakning": 35
+  },
+  {
+    "lasar": "2025-2026",
+    "arskurs": 9,
+    "skolenhetskod": "74170440",
+    "skolenhetsnamn": null,
+    "signaltyp": "hog_andel_f",
+    "amne": "Fy",
+    "amnesnamn": "Fysik",
+    "varde": 22.58,
+    "antal_i_berakning": 31
+  },
+  {
+    "lasar": "2025-2026",
+    "arskurs": 9,
+    "skolenhetskod": "74170440",
+    "skolenhetsnamn": null,
+    "signaltyp": "hog_andel_f",
+    "amne": "Sva",
+    "amnesnamn": "Svenska som andraspråk",
+    "varde": 30.0,
+    "antal_i_berakning": 10
+  },
+  {
+    "lasar": "2025-2026",
+    "arskurs": 9,
+    "skolenhetskod": "74170440",
+    "skolenhetsnamn": null,
+    "signaltyp": "lag_behorighet_yrkesprogram",
+    "varde": 78.12,
+    "antal_i_berakning": 32
+  }
+]

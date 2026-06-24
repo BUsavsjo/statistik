@@ -1,0 +1,101 @@
+[
+  {
+    "Ämne": "BI",
+    "Frånvarotyp": "total_franvaro_pct",
+    "Gender": "flicka",
+    "Korrelation": 0.01,
+    "Styrka": "ingen",
+    "Årskurs": "6",
+    "Läsår": "2025-2026"
+  },
+  {
+    "Ämne": "En",
+    "Frånvarotyp": "total_franvaro_pct",
+    "Gender": "flicka",
+    "Korrelation": -0.07,
+    "Styrka": "ingen",
+    "Årskurs": "6",
+    "Läsår": "2025-2026"
+  },
+  {
+    "Ämne": "Hkk",
+    "Frånvarotyp": "total_franvaro_pct",
+    "Gender": "flicka",
+    "Korrelation": -0.15,
+    "Styrka": "svag",
+    "Årskurs": "6",
+    "Läsår": "2025-2026"
+  },
+  {
+    "Ämne": "idh",
+    "Frånvarotyp": "total_franvaro_pct",
+    "Gender": "flicka",
+    "Korrelation": -0.62,
+    "Styrka": "stark",
+    "Årskurs": "6",
+    "Läsår": "2025-2026"
+  },
+  {
+    "Ämne": "Ma",
+    "Frånvarotyp": "total_franvaro_pct",
+    "Gender": "flicka",
+    "Korrelation": -0.06,
+    "Styrka": "ingen",
+    "Årskurs": "6",
+    "Läsår": "2025-2026"
+  },
+  {
+    "Ämne": "mu",
+    "Frånvarotyp": "total_franvaro_pct",
+    "Gender": "flicka",
+    "Korrelation": -0.48,
+    "Styrka": "måttlig",
+    "Årskurs": "6",
+    "Läsår": "2025-2026"
+  },
+  {
+    "Ämne": "No",
+    "Frånvarotyp": "total_franvaro_pct",
+    "Gender": "flicka",
+    "Korrelation": null,
+    "Styrka": "saknas",
+    "Årskurs": "6",
+    "Läsår": "2025-2026"
+  },
+  {
+    "Ämne": "So",
+    "Frånvarotyp": "total_franvaro_pct",
+    "Gender": "flicka",
+    "Korrelation": -0.21,
+    "Styrka": "svag",
+    "Årskurs": "6",
+    "Läsår": "2025-2026"
+  },
+  {
+    "Ämne": "Sv",
+    "Frånvarotyp": "total_franvaro_pct",
+    "Gender": "flicka",
+    "Korrelation": -0.17,
+    "Styrka": "svag",
+    "Årskurs": "6",
+    "Läsår": "2025-2026"
+  },
+  {
+    "Ämne": "Sva",
+    "Frånvarotyp": "total_franvaro_pct",
+    "Gender": "flicka",
+    "Korrelation": -0.1,
+    "Styrka": "svag",
+    "Årskurs": "6",
+    "Läsår": "2025-2026"
+  },
+  {
+    "Ämne": "Tk",
+    "Frånvarotyp": "total_franvaro_pct",
+    "Gender": "flicka",
+    "Korrelation": null,
+    "Styrka": "saknas",
+    "Årskurs": "6",
+    "Läsår": "2025-2026"
+  }
+]

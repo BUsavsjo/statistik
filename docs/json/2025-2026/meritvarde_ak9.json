@@ -1,0 +1,26 @@
+[
+  {
+    "Ämne": "Meritvärde",
+    "Frånvarotyp": "ogiltig_franvaro_pct",
+    "Korrelation": -0.77,
+    "Styrka": "mycket stark",
+    "Läsår": "2025-2026",
+    "Årskurs": "9"
+  },
+  {
+    "Ämne": "Meritvärde",
+    "Frånvarotyp": "total_franvaro_pct",
+    "Korrelation": -0.74,
+    "Styrka": "mycket stark",
+    "Läsår": "2025-2026",
+    "Årskurs": "9"
+  },
+  {
+    "Ämne": "Meritvärde",
+    "Frånvarotyp": "giltig_franvaro_pct",
+    "Korrelation": -0.62,
+    "Styrka": "stark",
+    "Läsår": "2025-2026",
+    "Årskurs": "9"
+  }
+]

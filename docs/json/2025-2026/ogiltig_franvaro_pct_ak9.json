@@ -1,6 +1,6 @@
 [
   {
-    "Ämne": "BI",
+    "Ämne": "Bl",
     "Frånvarotyp": "ogiltig_franvaro_pct",
     "FrånvarotypLabel": "Ogiltig frånvaro (%)",
     "Korrelation": -0.63,
@@ -30,7 +30,7 @@
     "Årskurs": "9"
   },
   {
-    "Ämne": "idh",
+    "Ämne": "Idh",
     "Frånvarotyp": "ogiltig_franvaro_pct",
     "FrånvarotypLabel": "Ogiltig frånvaro (%)",
     "Korrelation": -0.69,
@@ -50,7 +50,7 @@
     "Årskurs": "9"
   },
   {
-    "Ämne": "mu",
+    "Ämne": "Mu",
     "Frånvarotyp": "ogiltig_franvaro_pct",
     "FrånvarotypLabel": "Ogiltig frånvaro (%)",
     "Korrelation": -0.61,
@@ -130,7 +130,7 @@
     "Årskurs": "9"
   },
   {
-    "Ämne": "SI",
+    "Ämne": "Sl",
     "Frånvarotyp": "ogiltig_franvaro_pct",
     "FrånvarotypLabel": "Ogiltig frånvaro (%)",
     "Korrelation": -0.64,
@@ -176,6 +176,16 @@
     "Korrelation": -0.63,
     "Styrka": "stark",
     "AntalElever": 118,
+    "Läsår": "2025-2026",
+    "Årskurs": "9"
+  },
+  {
+    "Ämne": "Ovr",
+    "Frånvarotyp": "ogiltig_franvaro_pct",
+    "FrånvarotypLabel": "Ogiltig frånvaro (%)",
+    "Korrelation": null,
+    "Styrka": "saknas",
+    "AntalElever": 0,
     "Läsår": "2025-2026",
     "Årskurs": "9"
   }

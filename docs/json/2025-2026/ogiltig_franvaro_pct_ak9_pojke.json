@@ -1,6 +1,6 @@
 [
   {
-    "Ämne": "BI",
+    "Ämne": "Bl",
     "Frånvarotyp": "ogiltig_franvaro_pct",
     "Gender": "pojke",
     "Korrelation": -0.58,
@@ -27,7 +27,7 @@
     "Läsår": "2025-2026"
   },
   {
-    "Ämne": "idh",
+    "Ämne": "Idh",
     "Frånvarotyp": "ogiltig_franvaro_pct",
     "Gender": "pojke",
     "Korrelation": -0.67,
@@ -45,7 +45,7 @@
     "Läsår": "2025-2026"
   },
   {
-    "Ämne": "mu",
+    "Ämne": "Mu",
     "Frånvarotyp": "ogiltig_franvaro_pct",
     "Gender": "pojke",
     "Korrelation": -0.67,
@@ -117,7 +117,7 @@
     "Läsår": "2025-2026"
   },
   {
-    "Ämne": "SI",
+    "Ämne": "Sl",
     "Frånvarotyp": "ogiltig_franvaro_pct",
     "Gender": "pojke",
     "Korrelation": -0.68,
@@ -158,6 +158,15 @@
     "Gender": "pojke",
     "Korrelation": -0.6,
     "Styrka": "stark",
+    "Årskurs": "9",
+    "Läsår": "2025-2026"
+  },
+  {
+    "Ämne": "Ovr",
+    "Frånvarotyp": "ogiltig_franvaro_pct",
+    "Gender": "pojke",
+    "Korrelation": null,
+    "Styrka": "saknas",
     "Årskurs": "9",
     "Läsår": "2025-2026"
   }

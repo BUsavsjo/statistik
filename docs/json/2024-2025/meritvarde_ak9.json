@@ -2,24 +2,30 @@
   {
     "Ämne": "Meritvärde",
     "Frånvarotyp": "ogiltig_franvaro_pct",
+    "FrånvarotypLabel": "Ogiltig frånvaro (%)",
     "Korrelation": -0.51,
     "Styrka": "stark",
+    "AntalElever": 137,
     "Läsår": "2024-2025",
     "Årskurs": "9"
   },
   {
     "Ämne": "Meritvärde",
     "Frånvarotyp": "total_franvaro_pct",
-    "Korrelation": -0.66,
+    "FrånvarotypLabel": "Total frånvaro (%)",
+    "Korrelation": -0.58,
     "Styrka": "stark",
+    "AntalElever": 137,
     "Läsår": "2024-2025",
     "Årskurs": "9"
   },
   {
     "Ämne": "Meritvärde",
     "Frånvarotyp": "giltig_franvaro_pct",
-    "Korrelation": -0.56,
-    "Styrka": "stark",
+    "FrånvarotypLabel": "Giltig frånvaro (%)",
+    "Korrelation": -0.44,
+    "Styrka": "måttlig",
+    "AntalElever": 137,
     "Läsår": "2024-2025",
     "Årskurs": "9"
   }

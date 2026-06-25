@@ -8,10 +8,10 @@
     "kon": "Alla",
     "elevgrupp": "Alla",
     "antal_elever": 141,
-    "genomsnittligt_meritvarde_16": 110.78,
-    "genomsnittligt_meritvarde_17": 125.0,
-    "median_meritvarde_17": 127.5,
-    "andel_uppnatt_alla_amnen": 79.43
+    "genomsnittligt_meritvarde_16": 215.23,
+    "genomsnittligt_meritvarde_17": 229.45,
+    "median_meritvarde_17": 237.5,
+    "andel_uppnatt_alla_amnen": 72.34
   },
   {
     "lasar": "2025-2026",
@@ -22,10 +22,10 @@
     "kon": "flicka",
     "elevgrupp": "Alla",
     "antal_elever": 51,
-    "genomsnittligt_meritvarde_16": 109.66,
-    "genomsnittligt_meritvarde_17": 124.46,
-    "median_meritvarde_17": 127.5,
-    "andel_uppnatt_alla_amnen": 72.55
+    "genomsnittligt_meritvarde_16": 211.47,
+    "genomsnittligt_meritvarde_17": 226.27,
+    "median_meritvarde_17": 230.0,
+    "andel_uppnatt_alla_amnen": 64.71
   },
   {
     "lasar": "2025-2026",
@@ -36,10 +36,10 @@
     "kon": "pojke",
     "elevgrupp": "Alla",
     "antal_elever": 90,
-    "genomsnittligt_meritvarde_16": 111.42,
-    "genomsnittligt_meritvarde_17": 125.31,
-    "median_meritvarde_17": 130.0,
-    "andel_uppnatt_alla_amnen": 83.33
+    "genomsnittligt_meritvarde_16": 217.36,
+    "genomsnittligt_meritvarde_17": 231.25,
+    "median_meritvarde_17": 242.5,
+    "andel_uppnatt_alla_amnen": 76.67
   },
   {
     "lasar": "2025-2026",
@@ -49,11 +49,11 @@
     "skolenhetsnamn": "Alla skolenheter",
     "kon": "Alla",
     "elevgrupp": "SV",
-    "antal_elever": 1,
-    "genomsnittligt_meritvarde_16": 100.0,
-    "genomsnittligt_meritvarde_17": 100.0,
-    "median_meritvarde_17": 100.0,
-    "andel_uppnatt_alla_amnen": 100.0
+    "antal_elever": 94,
+    "genomsnittligt_meritvarde_16": 227.31,
+    "genomsnittligt_meritvarde_17": 241.68,
+    "median_meritvarde_17": 247.5,
+    "andel_uppnatt_alla_amnen": 78.72
   },
   {
     "lasar": "2025-2026",
@@ -62,12 +62,12 @@
     "skolenhetskod": null,
     "skolenhetsnamn": "Alla skolenheter",
     "kon": "Alla",
-    "elevgrupp": "SV_och_SVA",
-    "antal_elever": 140,
-    "genomsnittligt_meritvarde_16": 110.86,
-    "genomsnittligt_meritvarde_17": 125.18,
-    "median_meritvarde_17": 127.5,
-    "andel_uppnatt_alla_amnen": 79.29
+    "elevgrupp": "SVA",
+    "antal_elever": 47,
+    "genomsnittligt_meritvarde_16": 191.06,
+    "genomsnittligt_meritvarde_17": 205.0,
+    "median_meritvarde_17": 217.5,
+    "andel_uppnatt_alla_amnen": 59.57
   },
   {
     "lasar": "2025-2026",
@@ -77,11 +77,11 @@
     "skolenhetsnamn": "Alla skolenheter",
     "kon": "flicka",
     "elevgrupp": "SV",
-    "antal_elever": 1,
-    "genomsnittligt_meritvarde_16": 100.0,
-    "genomsnittligt_meritvarde_17": 100.0,
-    "median_meritvarde_17": 100.0,
-    "andel_uppnatt_alla_amnen": 100.0
+    "antal_elever": 27,
+    "genomsnittligt_meritvarde_16": 235.65,
+    "genomsnittligt_meritvarde_17": 250.93,
+    "median_meritvarde_17": 252.5,
+    "andel_uppnatt_alla_amnen": 77.78
   },
   {
     "lasar": "2025-2026",
@@ -90,12 +90,12 @@
     "skolenhetskod": null,
     "skolenhetsnamn": "Alla skolenheter",
     "kon": "flicka",
-    "elevgrupp": "SV_och_SVA",
-    "antal_elever": 50,
-    "genomsnittligt_meritvarde_16": 109.85,
-    "genomsnittligt_meritvarde_17": 124.95,
-    "median_meritvarde_17": 127.5,
-    "andel_uppnatt_alla_amnen": 72.0
+    "elevgrupp": "SVA",
+    "antal_elever": 24,
+    "genomsnittligt_meritvarde_16": 184.27,
+    "genomsnittligt_meritvarde_17": 198.54,
+    "median_meritvarde_17": 203.75,
+    "andel_uppnatt_alla_amnen": 50.0
   },
   {
     "lasar": "2025-2026",
@@ -104,12 +104,26 @@
     "skolenhetskod": null,
     "skolenhetsnamn": "Alla skolenheter",
     "kon": "pojke",
-    "elevgrupp": "SV_och_SVA",
-    "antal_elever": 90,
-    "genomsnittligt_meritvarde_16": 111.42,
-    "genomsnittligt_meritvarde_17": 125.31,
-    "median_meritvarde_17": 130.0,
-    "andel_uppnatt_alla_amnen": 83.33
+    "elevgrupp": "SV",
+    "antal_elever": 67,
+    "genomsnittligt_meritvarde_16": 223.96,
+    "genomsnittligt_meritvarde_17": 237.95,
+    "median_meritvarde_17": 247.5,
+    "andel_uppnatt_alla_amnen": 79.1
+  },
+  {
+    "lasar": "2025-2026",
+    "arskurs": 6,
+    "niva": "alla_skolenheter",
+    "skolenhetskod": null,
+    "skolenhetsnamn": "Alla skolenheter",
+    "kon": "pojke",
+    "elevgrupp": "SVA",
+    "antal_elever": 23,
+    "genomsnittligt_meritvarde_16": 198.15,
+    "genomsnittligt_meritvarde_17": 211.74,
+    "median_meritvarde_17": 222.5,
+    "andel_uppnatt_alla_amnen": 69.57
   },
   {
     "lasar": "2025-2026",
@@ -120,10 +134,10 @@
     "kon": "Alla",
     "elevgrupp": "Alla",
     "antal_elever": 35,
-    "genomsnittligt_meritvarde_16": 94.43,
-    "genomsnittligt_meritvarde_17": 106.86,
-    "median_meritvarde_17": 117.5,
-    "andel_uppnatt_alla_amnen": 68.57
+    "genomsnittligt_meritvarde_16": 181.79,
+    "genomsnittligt_meritvarde_17": 194.21,
+    "median_meritvarde_17": 207.5,
+    "andel_uppnatt_alla_amnen": 54.29
   },
   {
     "lasar": "2025-2026",
@@ -134,10 +148,10 @@
     "kon": "flicka",
     "elevgrupp": "Alla",
     "antal_elever": 13,
-    "genomsnittligt_meritvarde_16": 86.54,
-    "genomsnittligt_meritvarde_17": 100.0,
-    "median_meritvarde_17": 100.0,
-    "andel_uppnatt_alla_amnen": 46.15
+    "genomsnittligt_meritvarde_16": 162.5,
+    "genomsnittligt_meritvarde_17": 175.96,
+    "median_meritvarde_17": 182.5,
+    "andel_uppnatt_alla_amnen": 30.77
   },
   {
     "lasar": "2025-2026",
@@ -148,10 +162,10 @@
     "kon": "pojke",
     "elevgrupp": "Alla",
     "antal_elever": 22,
-    "genomsnittligt_meritvarde_16": 99.09,
-    "genomsnittligt_meritvarde_17": 110.91,
-    "median_meritvarde_17": 117.5,
-    "andel_uppnatt_alla_amnen": 81.82
+    "genomsnittligt_meritvarde_16": 193.18,
+    "genomsnittligt_meritvarde_17": 205.0,
+    "median_meritvarde_17": 220.0,
+    "andel_uppnatt_alla_amnen": 68.18
   },
   {
     "lasar": "2025-2026",
@@ -160,12 +174,26 @@
     "skolenhetskod": "13654995",
     "skolenhetsnamn": null,
     "kon": "Alla",
-    "elevgrupp": "SV_och_SVA",
-    "antal_elever": 35,
-    "genomsnittligt_meritvarde_16": 94.43,
-    "genomsnittligt_meritvarde_17": 106.86,
-    "median_meritvarde_17": 117.5,
-    "andel_uppnatt_alla_amnen": 68.57
+    "elevgrupp": "SV",
+    "antal_elever": 19,
+    "genomsnittligt_meritvarde_16": 205.0,
+    "genomsnittligt_meritvarde_17": 216.97,
+    "median_meritvarde_17": 210.0,
+    "andel_uppnatt_alla_amnen": 63.16
+  },
+  {
+    "lasar": "2025-2026",
+    "arskurs": 6,
+    "niva": "skolenhet",
+    "skolenhetskod": "13654995",
+    "skolenhetsnamn": null,
+    "kon": "Alla",
+    "elevgrupp": "SVA",
+    "antal_elever": 16,
+    "genomsnittligt_meritvarde_16": 154.22,
+    "genomsnittligt_meritvarde_17": 167.19,
+    "median_meritvarde_17": 177.5,
+    "andel_uppnatt_alla_amnen": 43.75
   },
   {
     "lasar": "2025-2026",
@@ -174,12 +202,40 @@
     "skolenhetskod": "13654995",
     "skolenhetsnamn": null,
     "kon": "flicka",
-    "elevgrupp": "SV_och_SVA",
+    "elevgrupp": "SV",
+    "antal_elever": 6,
+    "genomsnittligt_meritvarde_16": 205.0,
+    "genomsnittligt_meritvarde_17": 219.17,
+    "median_meritvarde_17": 216.25,
+    "andel_uppnatt_alla_amnen": 50.0
+  },
+  {
+    "lasar": "2025-2026",
+    "arskurs": 6,
+    "niva": "skolenhet",
+    "skolenhetskod": "13654995",
+    "skolenhetsnamn": null,
+    "kon": "flicka",
+    "elevgrupp": "SVA",
+    "antal_elever": 7,
+    "genomsnittligt_meritvarde_16": 126.07,
+    "genomsnittligt_meritvarde_17": 138.93,
+    "median_meritvarde_17": 140.0,
+    "andel_uppnatt_alla_amnen": 14.29
+  },
+  {
+    "lasar": "2025-2026",
+    "arskurs": 6,
+    "niva": "skolenhet",
+    "skolenhetskod": "13654995",
+    "skolenhetsnamn": null,
+    "kon": "pojke",
+    "elevgrupp": "SV",
     "antal_elever": 13,
-    "genomsnittligt_meritvarde_16": 86.54,
-    "genomsnittligt_meritvarde_17": 100.0,
-    "median_meritvarde_17": 100.0,
-    "andel_uppnatt_alla_amnen": 46.15
+    "genomsnittligt_meritvarde_16": 205.0,
+    "genomsnittligt_meritvarde_17": 215.96,
+    "median_meritvarde_17": 207.5,
+    "andel_uppnatt_alla_amnen": 69.23
   },
   {
     "lasar": "2025-2026",
@@ -188,12 +244,12 @@
     "skolenhetskod": "13654995",
     "skolenhetsnamn": null,
     "kon": "pojke",
-    "elevgrupp": "SV_och_SVA",
-    "antal_elever": 22,
-    "genomsnittligt_meritvarde_16": 99.09,
-    "genomsnittligt_meritvarde_17": 110.91,
-    "median_meritvarde_17": 117.5,
-    "andel_uppnatt_alla_amnen": 81.82
+    "elevgrupp": "SVA",
+    "antal_elever": 9,
+    "genomsnittligt_meritvarde_16": 176.11,
+    "genomsnittligt_meritvarde_17": 189.17,
+    "median_meritvarde_17": 222.5,
+    "andel_uppnatt_alla_amnen": 66.67
   },
   {
     "lasar": "2025-2026",
@@ -204,10 +260,10 @@
     "kon": "Alla",
     "elevgrupp": "Alla",
     "antal_elever": 48,
-    "genomsnittligt_meritvarde_16": 117.45,
-    "genomsnittligt_meritvarde_17": 131.61,
-    "median_meritvarde_17": 130.0,
-    "andel_uppnatt_alla_amnen": 89.58
+    "genomsnittligt_meritvarde_16": 230.31,
+    "genomsnittligt_meritvarde_17": 244.48,
+    "median_meritvarde_17": 242.5,
+    "andel_uppnatt_alla_amnen": 83.33
   },
   {
     "lasar": "2025-2026",
@@ -218,10 +274,10 @@
     "kon": "flicka",
     "elevgrupp": "Alla",
     "antal_elever": 15,
-    "genomsnittligt_meritvarde_16": 115.67,
-    "genomsnittligt_meritvarde_17": 129.33,
-    "median_meritvarde_17": 125.0,
-    "andel_uppnatt_alla_amnen": 86.67
+    "genomsnittligt_meritvarde_16": 224.83,
+    "genomsnittligt_meritvarde_17": 238.5,
+    "median_meritvarde_17": 235.0,
+    "andel_uppnatt_alla_amnen": 80.0
   },
   {
     "lasar": "2025-2026",
@@ -232,10 +288,10 @@
     "kon": "pojke",
     "elevgrupp": "Alla",
     "antal_elever": 33,
-    "genomsnittligt_meritvarde_16": 118.26,
-    "genomsnittligt_meritvarde_17": 132.65,
-    "median_meritvarde_17": 132.5,
-    "andel_uppnatt_alla_amnen": 90.91
+    "genomsnittligt_meritvarde_16": 232.8,
+    "genomsnittligt_meritvarde_17": 247.2,
+    "median_meritvarde_17": 250.0,
+    "andel_uppnatt_alla_amnen": 84.85
   },
   {
     "lasar": "2025-2026",
@@ -244,12 +300,26 @@
     "skolenhetskod": "53857703",
     "skolenhetsnamn": null,
     "kon": "Alla",
-    "elevgrupp": "SV_och_SVA",
-    "antal_elever": 48,
-    "genomsnittligt_meritvarde_16": 117.45,
-    "genomsnittligt_meritvarde_17": 131.61,
-    "median_meritvarde_17": 130.0,
-    "andel_uppnatt_alla_amnen": 89.58
+    "elevgrupp": "SV",
+    "antal_elever": 30,
+    "genomsnittligt_meritvarde_16": 241.58,
+    "genomsnittligt_meritvarde_17": 255.5,
+    "median_meritvarde_17": 251.25,
+    "andel_uppnatt_alla_amnen": 90.0
+  },
+  {
+    "lasar": "2025-2026",
+    "arskurs": 6,
+    "niva": "skolenhet",
+    "skolenhetskod": "53857703",
+    "skolenhetsnamn": null,
+    "kon": "Alla",
+    "elevgrupp": "SVA",
+    "antal_elever": 18,
+    "genomsnittligt_meritvarde_16": 211.53,
+    "genomsnittligt_meritvarde_17": 226.11,
+    "median_meritvarde_17": 227.5,
+    "andel_uppnatt_alla_amnen": 72.22
   },
   {
     "lasar": "2025-2026",
@@ -258,12 +328,26 @@
     "skolenhetskod": "53857703",
     "skolenhetsnamn": null,
     "kon": "flicka",
-    "elevgrupp": "SV_och_SVA",
-    "antal_elever": 15,
-    "genomsnittligt_meritvarde_16": 115.67,
-    "genomsnittligt_meritvarde_17": 129.33,
-    "median_meritvarde_17": 125.0,
-    "andel_uppnatt_alla_amnen": 86.67
+    "elevgrupp": "SV",
+    "antal_elever": 9,
+    "genomsnittligt_meritvarde_16": 240.28,
+    "genomsnittligt_meritvarde_17": 253.89,
+    "median_meritvarde_17": 240.0,
+    "andel_uppnatt_alla_amnen": 88.89
+  },
+  {
+    "lasar": "2025-2026",
+    "arskurs": 6,
+    "niva": "skolenhet",
+    "skolenhetskod": "53857703",
+    "skolenhetsnamn": null,
+    "kon": "flicka",
+    "elevgrupp": "SVA",
+    "antal_elever": 6,
+    "genomsnittligt_meritvarde_16": 201.67,
+    "genomsnittligt_meritvarde_17": 215.42,
+    "median_meritvarde_17": 206.25,
+    "andel_uppnatt_alla_amnen": 66.67
   },
   {
     "lasar": "2025-2026",
@@ -272,12 +356,26 @@
     "skolenhetskod": "53857703",
     "skolenhetsnamn": null,
     "kon": "pojke",
-    "elevgrupp": "SV_och_SVA",
-    "antal_elever": 33,
-    "genomsnittligt_meritvarde_16": 118.26,
-    "genomsnittligt_meritvarde_17": 132.65,
-    "median_meritvarde_17": 132.5,
-    "andel_uppnatt_alla_amnen": 90.91
+    "elevgrupp": "SV",
+    "antal_elever": 21,
+    "genomsnittligt_meritvarde_16": 242.14,
+    "genomsnittligt_meritvarde_17": 256.19,
+    "median_meritvarde_17": 257.5,
+    "andel_uppnatt_alla_amnen": 90.48
+  },
+  {
+    "lasar": "2025-2026",
+    "arskurs": 6,
+    "niva": "skolenhet",
+    "skolenhetskod": "53857703",
+    "skolenhetsnamn": null,
+    "kon": "pojke",
+    "elevgrupp": "SVA",
+    "antal_elever": 12,
+    "genomsnittligt_meritvarde_16": 216.46,
+    "genomsnittligt_meritvarde_17": 231.46,
+    "median_meritvarde_17": 240.0,
+    "andel_uppnatt_alla_amnen": 75.0
   },
   {
     "lasar": "2025-2026",
@@ -288,10 +386,10 @@
     "kon": "Alla",
     "elevgrupp": "Alla",
     "antal_elever": 23,
-    "genomsnittligt_meritvarde_16": 118.37,
-    "genomsnittligt_meritvarde_17": 133.15,
-    "median_meritvarde_17": 142.5,
-    "andel_uppnatt_alla_amnen": 65.22
+    "genomsnittligt_meritvarde_16": 231.41,
+    "genomsnittligt_meritvarde_17": 246.2,
+    "median_meritvarde_17": 247.5,
+    "andel_uppnatt_alla_amnen": 60.87
   },
   {
     "lasar": "2025-2026",
@@ -302,9 +400,9 @@
     "kon": "flicka",
     "elevgrupp": "Alla",
     "antal_elever": 8,
-    "genomsnittligt_meritvarde_16": 118.12,
-    "genomsnittligt_meritvarde_17": 132.81,
-    "median_meritvarde_17": 136.25,
+    "genomsnittligt_meritvarde_16": 233.44,
+    "genomsnittligt_meritvarde_17": 248.12,
+    "median_meritvarde_17": 248.75,
     "andel_uppnatt_alla_amnen": 50.0
   },
   {
@@ -316,10 +414,10 @@
     "kon": "pojke",
     "elevgrupp": "Alla",
     "antal_elever": 15,
-    "genomsnittligt_meritvarde_16": 118.5,
-    "genomsnittligt_meritvarde_17": 133.33,
-    "median_meritvarde_17": 142.5,
-    "andel_uppnatt_alla_amnen": 73.33
+    "genomsnittligt_meritvarde_16": 230.33,
+    "genomsnittligt_meritvarde_17": 245.17,
+    "median_meritvarde_17": 247.5,
+    "andel_uppnatt_alla_amnen": 66.67
   },
   {
     "lasar": "2025-2026",
@@ -328,12 +426,26 @@
     "skolenhetskod": "60194444",
     "skolenhetsnamn": null,
     "kon": "Alla",
-    "elevgrupp": "SV_och_SVA",
-    "antal_elever": 23,
-    "genomsnittligt_meritvarde_16": 118.37,
-    "genomsnittligt_meritvarde_17": 133.15,
-    "median_meritvarde_17": 142.5,
-    "andel_uppnatt_alla_amnen": 65.22
+    "elevgrupp": "SV",
+    "antal_elever": 21,
+    "genomsnittligt_meritvarde_16": 235.71,
+    "genomsnittligt_meritvarde_17": 250.83,
+    "median_meritvarde_17": 252.5,
+    "andel_uppnatt_alla_amnen": 66.67
+  },
+  {
+    "lasar": "2025-2026",
+    "arskurs": 6,
+    "niva": "skolenhet",
+    "skolenhetskod": "60194444",
+    "skolenhetsnamn": null,
+    "kon": "Alla",
+    "elevgrupp": "SVA",
+    "antal_elever": 2,
+    "genomsnittligt_meritvarde_16": 186.25,
+    "genomsnittligt_meritvarde_17": 197.5,
+    "median_meritvarde_17": 197.5,
+    "andel_uppnatt_alla_amnen": 0.0
   },
   {
     "lasar": "2025-2026",
@@ -342,12 +454,26 @@
     "skolenhetskod": "60194444",
     "skolenhetsnamn": null,
     "kon": "flicka",
-    "elevgrupp": "SV_och_SVA",
-    "antal_elever": 8,
-    "genomsnittligt_meritvarde_16": 118.12,
-    "genomsnittligt_meritvarde_17": 132.81,
-    "median_meritvarde_17": 136.25,
-    "andel_uppnatt_alla_amnen": 50.0
+    "elevgrupp": "SV",
+    "antal_elever": 6,
+    "genomsnittligt_meritvarde_16": 249.17,
+    "genomsnittligt_meritvarde_17": 265.0,
+    "median_meritvarde_17": 295.0,
+    "andel_uppnatt_alla_amnen": 66.67
+  },
+  {
+    "lasar": "2025-2026",
+    "arskurs": 6,
+    "niva": "skolenhet",
+    "skolenhetskod": "60194444",
+    "skolenhetsnamn": null,
+    "kon": "flicka",
+    "elevgrupp": "SVA",
+    "antal_elever": 2,
+    "genomsnittligt_meritvarde_16": 186.25,
+    "genomsnittligt_meritvarde_17": 197.5,
+    "median_meritvarde_17": 197.5,
+    "andel_uppnatt_alla_amnen": 0.0
   },
   {
     "lasar": "2025-2026",
@@ -356,12 +482,12 @@
     "skolenhetskod": "60194444",
     "skolenhetsnamn": null,
     "kon": "pojke",
-    "elevgrupp": "SV_och_SVA",
+    "elevgrupp": "SV",
     "antal_elever": 15,
-    "genomsnittligt_meritvarde_16": 118.5,
-    "genomsnittligt_meritvarde_17": 133.33,
-    "median_meritvarde_17": 142.5,
-    "andel_uppnatt_alla_amnen": 73.33
+    "genomsnittligt_meritvarde_16": 230.33,
+    "genomsnittligt_meritvarde_17": 245.17,
+    "median_meritvarde_17": 247.5,
+    "andel_uppnatt_alla_amnen": 66.67
   },
   {
     "lasar": "2025-2026",
@@ -372,10 +498,10 @@
     "kon": "Alla",
     "elevgrupp": "Alla",
     "antal_elever": 19,
-    "genomsnittligt_meritvarde_16": 118.29,
-    "genomsnittligt_meritvarde_17": 134.34,
-    "median_meritvarde_17": 145.0,
-    "andel_uppnatt_alla_amnen": 89.47
+    "genomsnittligt_meritvarde_16": 227.11,
+    "genomsnittligt_meritvarde_17": 243.16,
+    "median_meritvarde_17": 260.0,
+    "andel_uppnatt_alla_amnen": 84.21
   },
   {
     "lasar": "2025-2026",
@@ -386,10 +512,10 @@
     "kon": "flicka",
     "elevgrupp": "Alla",
     "antal_elever": 9,
-    "genomsnittligt_meritvarde_16": 115.28,
-    "genomsnittligt_meritvarde_17": 131.39,
-    "median_meritvarde_17": 140.0,
-    "andel_uppnatt_alla_amnen": 88.89
+    "genomsnittligt_meritvarde_16": 221.67,
+    "genomsnittligt_meritvarde_17": 237.78,
+    "median_meritvarde_17": 260.0,
+    "andel_uppnatt_alla_amnen": 77.78
   },
   {
     "lasar": "2025-2026",
@@ -400,9 +526,9 @@
     "kon": "pojke",
     "elevgrupp": "Alla",
     "antal_elever": 10,
-    "genomsnittligt_meritvarde_16": 121.0,
-    "genomsnittligt_meritvarde_17": 137.0,
-    "median_meritvarde_17": 148.75,
+    "genomsnittligt_meritvarde_16": 232.0,
+    "genomsnittligt_meritvarde_17": 248.0,
+    "median_meritvarde_17": 261.25,
     "andel_uppnatt_alla_amnen": 90.0
   },
   {
@@ -413,10 +539,10 @@
     "skolenhetsnamn": null,
     "kon": "Alla",
     "elevgrupp": "SV",
-    "antal_elever": 1,
-    "genomsnittligt_meritvarde_16": 100.0,
-    "genomsnittligt_meritvarde_17": 100.0,
-    "median_meritvarde_17": 100.0,
+    "antal_elever": 14,
+    "genomsnittligt_meritvarde_16": 244.29,
+    "genomsnittligt_meritvarde_17": 262.5,
+    "median_meritvarde_17": 273.75,
     "andel_uppnatt_alla_amnen": 100.0
   },
   {
@@ -426,12 +552,12 @@
     "skolenhetskod": "74170440",
     "skolenhetsnamn": null,
     "kon": "Alla",
-    "elevgrupp": "SV_och_SVA",
-    "antal_elever": 18,
-    "genomsnittligt_meritvarde_16": 119.31,
-    "genomsnittligt_meritvarde_17": 136.25,
-    "median_meritvarde_17": 146.25,
-    "andel_uppnatt_alla_amnen": 88.89
+    "elevgrupp": "SVA",
+    "antal_elever": 5,
+    "genomsnittligt_meritvarde_16": 179.0,
+    "genomsnittligt_meritvarde_17": 189.0,
+    "median_meritvarde_17": 167.5,
+    "andel_uppnatt_alla_amnen": 40.0
   },
   {
     "lasar": "2025-2026",
@@ -441,10 +567,10 @@
     "skolenhetsnamn": null,
     "kon": "flicka",
     "elevgrupp": "SV",
-    "antal_elever": 1,
-    "genomsnittligt_meritvarde_16": 100.0,
-    "genomsnittligt_meritvarde_17": 100.0,
-    "median_meritvarde_17": 100.0,
+    "antal_elever": 6,
+    "genomsnittligt_meritvarde_16": 245.83,
+    "genomsnittligt_meritvarde_17": 264.17,
+    "median_meritvarde_17": 275.0,
     "andel_uppnatt_alla_amnen": 100.0
   },
   {
@@ -454,12 +580,12 @@
     "skolenhetskod": "74170440",
     "skolenhetsnamn": null,
     "kon": "flicka",
-    "elevgrupp": "SV_och_SVA",
-    "antal_elever": 8,
-    "genomsnittligt_meritvarde_16": 117.19,
-    "genomsnittligt_meritvarde_17": 135.31,
-    "median_meritvarde_17": 142.5,
-    "andel_uppnatt_alla_amnen": 87.5
+    "elevgrupp": "SVA",
+    "antal_elever": 3,
+    "genomsnittligt_meritvarde_16": 173.33,
+    "genomsnittligt_meritvarde_17": 185.0,
+    "median_meritvarde_17": 167.5,
+    "andel_uppnatt_alla_amnen": 33.33
   },
   {
     "lasar": "2025-2026",
@@ -468,12 +594,26 @@
     "skolenhetskod": "74170440",
     "skolenhetsnamn": null,
     "kon": "pojke",
-    "elevgrupp": "SV_och_SVA",
-    "antal_elever": 10,
-    "genomsnittligt_meritvarde_16": 121.0,
-    "genomsnittligt_meritvarde_17": 137.0,
-    "median_meritvarde_17": 148.75,
-    "andel_uppnatt_alla_amnen": 90.0
+    "elevgrupp": "SV",
+    "antal_elever": 8,
+    "genomsnittligt_meritvarde_16": 243.12,
+    "genomsnittligt_meritvarde_17": 261.25,
+    "median_meritvarde_17": 268.75,
+    "andel_uppnatt_alla_amnen": 100.0
+  },
+  {
+    "lasar": "2025-2026",
+    "arskurs": 6,
+    "niva": "skolenhet",
+    "skolenhetskod": "74170440",
+    "skolenhetsnamn": null,
+    "kon": "pojke",
+    "elevgrupp": "SVA",
+    "antal_elever": 2,
+    "genomsnittligt_meritvarde_16": 187.5,
+    "genomsnittligt_meritvarde_17": 195.0,
+    "median_meritvarde_17": 195.0,
+    "andel_uppnatt_alla_amnen": 50.0
   },
   {
     "lasar": "2025-2026",
@@ -484,9 +624,9 @@
     "kon": "Alla",
     "elevgrupp": "Alla",
     "antal_elever": 16,
-    "genomsnittligt_meritvarde_16": 106.72,
-    "genomsnittligt_meritvarde_17": 122.03,
-    "median_meritvarde_17": 133.75,
+    "genomsnittligt_meritvarde_16": 205.78,
+    "genomsnittligt_meritvarde_17": 221.09,
+    "median_meritvarde_17": 238.75,
     "andel_uppnatt_alla_amnen": 81.25
   },
   {
@@ -498,9 +638,9 @@
     "kon": "flicka",
     "elevgrupp": "Alla",
     "antal_elever": 6,
-    "genomsnittligt_meritvarde_16": 125.0,
-    "genomsnittligt_meritvarde_17": 143.75,
-    "median_meritvarde_17": 147.5,
+    "genomsnittligt_meritvarde_16": 239.58,
+    "genomsnittligt_meritvarde_17": 258.33,
+    "median_meritvarde_17": 262.5,
     "andel_uppnatt_alla_amnen": 100.0
   },
   {
@@ -512,9 +652,9 @@
     "kon": "pojke",
     "elevgrupp": "Alla",
     "antal_elever": 10,
-    "genomsnittligt_meritvarde_16": 95.75,
-    "genomsnittligt_meritvarde_17": 109.0,
-    "median_meritvarde_17": 126.25,
+    "genomsnittligt_meritvarde_16": 185.5,
+    "genomsnittligt_meritvarde_17": 198.75,
+    "median_meritvarde_17": 230.0,
     "andel_uppnatt_alla_amnen": 70.0
   },
   {
@@ -524,12 +664,26 @@
     "skolenhetskod": "77440739",
     "skolenhetsnamn": null,
     "kon": "Alla",
-    "elevgrupp": "SV_och_SVA",
-    "antal_elever": 16,
-    "genomsnittligt_meritvarde_16": 106.72,
-    "genomsnittligt_meritvarde_17": 122.03,
-    "median_meritvarde_17": 133.75,
-    "andel_uppnatt_alla_amnen": 81.25
+    "elevgrupp": "SV",
+    "antal_elever": 10,
+    "genomsnittligt_meritvarde_16": 185.5,
+    "genomsnittligt_meritvarde_17": 198.75,
+    "median_meritvarde_17": 230.0,
+    "andel_uppnatt_alla_amnen": 70.0
+  },
+  {
+    "lasar": "2025-2026",
+    "arskurs": 6,
+    "niva": "skolenhet",
+    "skolenhetskod": "77440739",
+    "skolenhetsnamn": null,
+    "kon": "Alla",
+    "elevgrupp": "SVA",
+    "antal_elever": 6,
+    "genomsnittligt_meritvarde_16": 239.58,
+    "genomsnittligt_meritvarde_17": 258.33,
+    "median_meritvarde_17": 262.5,
+    "andel_uppnatt_alla_amnen": 100.0
   },
   {
     "lasar": "2025-2026",
@@ -538,11 +692,11 @@
     "skolenhetskod": "77440739",
     "skolenhetsnamn": null,
     "kon": "flicka",
-    "elevgrupp": "SV_och_SVA",
+    "elevgrupp": "SVA",
     "antal_elever": 6,
-    "genomsnittligt_meritvarde_16": 125.0,
-    "genomsnittligt_meritvarde_17": 143.75,
-    "median_meritvarde_17": 147.5,
+    "genomsnittligt_meritvarde_16": 239.58,
+    "genomsnittligt_meritvarde_17": 258.33,
+    "median_meritvarde_17": 262.5,
     "andel_uppnatt_alla_amnen": 100.0
   },
   {
@@ -552,11 +706,11 @@
     "skolenhetskod": "77440739",
     "skolenhetsnamn": null,
     "kon": "pojke",
-    "elevgrupp": "SV_och_SVA",
+    "elevgrupp": "SV",
     "antal_elever": 10,
-    "genomsnittligt_meritvarde_16": 95.75,
-    "genomsnittligt_meritvarde_17": 109.0,
-    "median_meritvarde_17": 126.25,
+    "genomsnittligt_meritvarde_16": 185.5,
+    "genomsnittligt_meritvarde_17": 198.75,
+    "median_meritvarde_17": 230.0,
     "andel_uppnatt_alla_amnen": 70.0
   },
   {

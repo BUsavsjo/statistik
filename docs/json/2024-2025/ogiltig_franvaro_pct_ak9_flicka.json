@@ -1,6 +1,6 @@
 [
   {
-    "Ämne": "BI",
+    "Ämne": "Bl",
     "Frånvarotyp": "ogiltig_franvaro_pct",
     "Gender": "flicka",
     "Korrelation": -0.19,
@@ -27,7 +27,7 @@
     "Läsår": "2024-2025"
   },
   {
-    "Ämne": "idh",
+    "Ämne": "Idh",
     "Frånvarotyp": "ogiltig_franvaro_pct",
     "Gender": "flicka",
     "Korrelation": -0.45,
@@ -45,7 +45,7 @@
     "Läsår": "2024-2025"
   },
   {
-    "Ämne": "mu",
+    "Ämne": "Mu",
     "Frånvarotyp": "ogiltig_franvaro_pct",
     "Gender": "flicka",
     "Korrelation": -0.18,
@@ -117,7 +117,7 @@
     "Läsår": "2024-2025"
   },
   {
-    "Ämne": "SI",
+    "Ämne": "Sl",
     "Frånvarotyp": "ogiltig_franvaro_pct",
     "Gender": "flicka",
     "Korrelation": -0.4,
@@ -158,6 +158,15 @@
     "Gender": "flicka",
     "Korrelation": -0.34,
     "Styrka": "måttlig",
+    "Årskurs": "9",
+    "Läsår": "2024-2025"
+  },
+  {
+    "Ämne": "Ovr",
+    "Frånvarotyp": "ogiltig_franvaro_pct",
+    "Gender": "flicka",
+    "Korrelation": null,
+    "Styrka": "saknas",
     "Årskurs": "9",
     "Läsår": "2024-2025"
   }

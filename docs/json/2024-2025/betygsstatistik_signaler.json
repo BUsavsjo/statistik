@@ -1,0 +1,130 @@
+[
+  {
+    "lasar": "2024-2025",
+    "arskurs": 6,
+    "skolenhetskod": "53857703",
+    "skolenhetsnamn": "Vallsjöskolan",
+    "signaltyp": "hog_andel_f",
+    "amne": "Sva",
+    "amnesnamn": "Svenska som andraspråk",
+    "varde": 46.67,
+    "antal_i_berakning": 15
+  },
+  {
+    "lasar": "2024-2025",
+    "arskurs": 6,
+    "skolenhetskod": "74170440",
+    "skolenhetsnamn": "Rörviks skola",
+    "signaltyp": "hog_andel_f",
+    "amne": "En",
+    "amnesnamn": "Engelska",
+    "varde": 21.43,
+    "antal_i_berakning": 14
+  },
+  {
+    "lasar": "2024-2025",
+    "arskurs": 6,
+    "skolenhetskod": "74170440",
+    "skolenhetsnamn": "Rörviks skola",
+    "signaltyp": "hog_andel_f",
+    "amne": "Idh",
+    "amnesnamn": "Idh",
+    "varde": 28.57,
+    "antal_i_berakning": 14
+  },
+  {
+    "lasar": "2024-2025",
+    "arskurs": 6,
+    "skolenhetskod": "74170440",
+    "skolenhetsnamn": "Rörviks skola",
+    "signaltyp": "hog_andel_f",
+    "amne": "Ma",
+    "amnesnamn": "Matematik",
+    "varde": 28.57,
+    "antal_i_berakning": 14
+  },
+  {
+    "lasar": "2024-2025",
+    "arskurs": 6,
+    "skolenhetskod": "74170440",
+    "skolenhetsnamn": "Rörviks skola",
+    "signaltyp": "hog_andel_f",
+    "amne": "Bi",
+    "amnesnamn": "Biologi",
+    "varde": 21.43,
+    "antal_i_berakning": 14
+  },
+  {
+    "lasar": "2024-2025",
+    "arskurs": 6,
+    "skolenhetskod": "74170440",
+    "skolenhetsnamn": "Rörviks skola",
+    "signaltyp": "hog_andel_f",
+    "amne": "Ke",
+    "amnesnamn": "Kemi",
+    "varde": 28.57,
+    "antal_i_berakning": 14
+  },
+  {
+    "lasar": "2024-2025",
+    "arskurs": 6,
+    "skolenhetskod": "77440739",
+    "skolenhetsnamn": "Stockaryds skola",
+    "signaltyp": "hog_andel_f",
+    "amne": "Sva",
+    "amnesnamn": "Svenska som andraspråk",
+    "varde": 33.33,
+    "antal_i_berakning": 6
+  },
+  {
+    "lasar": "2024-2025",
+    "arskurs": 9,
+    "skolenhetskod": "59983229",
+    "skolenhetsnamn": "Hofgårdsskolan",
+    "signaltyp": "hog_andel_f",
+    "amne": "Ma",
+    "amnesnamn": "Matematik",
+    "varde": 25.23,
+    "antal_i_berakning": 107
+  },
+  {
+    "lasar": "2024-2025",
+    "arskurs": 9,
+    "skolenhetskod": "59983229",
+    "skolenhetsnamn": "Hofgårdsskolan",
+    "signaltyp": "hog_andel_f",
+    "amne": "Sva",
+    "amnesnamn": "Svenska som andraspråk",
+    "varde": 28.12,
+    "antal_i_berakning": 32
+  },
+  {
+    "lasar": "2024-2025",
+    "arskurs": 9,
+    "skolenhetskod": "74170440",
+    "skolenhetsnamn": "Rörviks skola",
+    "signaltyp": "hog_andel_f",
+    "amne": "Sva",
+    "amnesnamn": "Svenska som andraspråk",
+    "varde": 30.77,
+    "antal_i_berakning": 13
+  },
+  {
+    "lasar": "2024-2025",
+    "arskurs": 9,
+    "skolenhetskod": "59983229",
+    "skolenhetsnamn": "Hofgårdsskolan",
+    "signaltyp": "lag_behorighet_yrkesprogram",
+    "varde": 70.09,
+    "antal_i_berakning": 107
+  },
+  {
+    "lasar": "2024-2025",
+    "arskurs": 9,
+    "skolenhetskod": "74170440",
+    "skolenhetsnamn": "Rörviks skola",
+    "signaltyp": "lag_behorighet_yrkesprogram",
+    "varde": 74.36,
+    "antal_i_berakning": 39
+  }
+]

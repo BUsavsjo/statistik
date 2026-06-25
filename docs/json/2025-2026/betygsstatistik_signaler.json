@@ -16,10 +16,65 @@
     "skolenhetskod": "13654995",
     "skolenhetsnamn": null,
     "signaltyp": "hog_andel_f",
-    "amne": "Sva",
-    "amnesnamn": "Svenska som andraspråk",
+    "amne": "Ke",
+    "amnesnamn": "Kemi",
     "varde": 31.43,
     "antal_i_berakning": 35
+  },
+  {
+    "lasar": "2025-2026",
+    "arskurs": 6,
+    "skolenhetskod": "13654995",
+    "skolenhetsnamn": null,
+    "signaltyp": "hog_andel_f",
+    "amne": "Sv",
+    "amnesnamn": "Svenska",
+    "varde": 21.05,
+    "antal_i_berakning": 19
+  },
+  {
+    "lasar": "2025-2026",
+    "arskurs": 6,
+    "skolenhetskod": "13654995",
+    "skolenhetsnamn": null,
+    "signaltyp": "hog_andel_f",
+    "amne": "Sva",
+    "amnesnamn": "Svenska som andraspråk",
+    "varde": 43.75,
+    "antal_i_berakning": 16
+  },
+  {
+    "lasar": "2025-2026",
+    "arskurs": 6,
+    "skolenhetskod": "13654995",
+    "skolenhetsnamn": null,
+    "signaltyp": "hog_andel_f",
+    "amne": "Tk",
+    "amnesnamn": "Teknik",
+    "varde": 20.0,
+    "antal_i_berakning": 35
+  },
+  {
+    "lasar": "2025-2026",
+    "arskurs": 6,
+    "skolenhetskod": "74170440",
+    "skolenhetsnamn": null,
+    "signaltyp": "hog_andel_f",
+    "amne": "Sva",
+    "amnesnamn": "Svenska som andraspråk",
+    "varde": 60.0,
+    "antal_i_berakning": 5
+  },
+  {
+    "lasar": "2025-2026",
+    "arskurs": 6,
+    "skolenhetskod": "77440739",
+    "skolenhetsnamn": null,
+    "signaltyp": "hog_andel_f",
+    "amne": "Sv",
+    "amnesnamn": "Svenska",
+    "varde": 30.0,
+    "antal_i_berakning": 10
   },
   {
     "lasar": "2025-2026",

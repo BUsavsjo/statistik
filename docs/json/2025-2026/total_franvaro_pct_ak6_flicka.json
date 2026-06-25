@@ -1,6 +1,6 @@
 [
   {
-    "Ämne": "BI",
+    "Ämne": "Bl",
     "Frånvarotyp": "total_franvaro_pct",
     "Gender": "flicka",
     "Korrelation": 0.01,
@@ -27,7 +27,7 @@
     "Läsår": "2025-2026"
   },
   {
-    "Ämne": "idh",
+    "Ämne": "Idh",
     "Frånvarotyp": "total_franvaro_pct",
     "Gender": "flicka",
     "Korrelation": -0.62,
@@ -45,7 +45,7 @@
     "Läsår": "2025-2026"
   },
   {
-    "Ämne": "mu",
+    "Ämne": "Mu",
     "Frånvarotyp": "total_franvaro_pct",
     "Gender": "flicka",
     "Korrelation": -0.48,
@@ -63,7 +63,7 @@
     "Läsår": "2025-2026"
   },
   {
-    "Ämne": "So",
+    "Ämne": "Bi",
     "Frånvarotyp": "total_franvaro_pct",
     "Gender": "flicka",
     "Korrelation": -0.21,
@@ -72,7 +72,7 @@
     "Läsår": "2025-2026"
   },
   {
-    "Ämne": "Sv",
+    "Ämne": "Fy",
     "Frånvarotyp": "total_franvaro_pct",
     "Gender": "flicka",
     "Korrelation": -0.17,
@@ -81,7 +81,7 @@
     "Läsår": "2025-2026"
   },
   {
-    "Ämne": "Sva",
+    "Ämne": "Ke",
     "Frånvarotyp": "total_franvaro_pct",
     "Gender": "flicka",
     "Korrelation": -0.1,
@@ -90,7 +90,97 @@
     "Läsår": "2025-2026"
   },
   {
+    "Ämne": "So",
+    "Frånvarotyp": "total_franvaro_pct",
+    "Gender": "flicka",
+    "Korrelation": null,
+    "Styrka": "saknas",
+    "Årskurs": "6",
+    "Läsår": "2025-2026"
+  },
+  {
+    "Ämne": "Ge",
+    "Frånvarotyp": "total_franvaro_pct",
+    "Gender": "flicka",
+    "Korrelation": -0.34,
+    "Styrka": "måttlig",
+    "Årskurs": "6",
+    "Läsår": "2025-2026"
+  },
+  {
+    "Ämne": "Hi",
+    "Frånvarotyp": "total_franvaro_pct",
+    "Gender": "flicka",
+    "Korrelation": -0.4,
+    "Styrka": "måttlig",
+    "Årskurs": "6",
+    "Läsår": "2025-2026"
+  },
+  {
+    "Ämne": "Re",
+    "Frånvarotyp": "total_franvaro_pct",
+    "Gender": "flicka",
+    "Korrelation": -0.42,
+    "Styrka": "måttlig",
+    "Årskurs": "6",
+    "Läsår": "2025-2026"
+  },
+  {
+    "Ämne": "Sh",
+    "Frånvarotyp": "total_franvaro_pct",
+    "Gender": "flicka",
+    "Korrelation": -0.19,
+    "Styrka": "svag",
+    "Årskurs": "6",
+    "Läsår": "2025-2026"
+  },
+  {
+    "Ämne": "Sl",
+    "Frånvarotyp": "total_franvaro_pct",
+    "Gender": "flicka",
+    "Korrelation": -0.25,
+    "Styrka": "svag",
+    "Årskurs": "6",
+    "Läsår": "2025-2026"
+  },
+  {
+    "Ämne": "Sv",
+    "Frånvarotyp": "total_franvaro_pct",
+    "Gender": "flicka",
+    "Korrelation": -0.07,
+    "Styrka": "ingen",
+    "Årskurs": "6",
+    "Läsår": "2025-2026"
+  },
+  {
+    "Ämne": "Sva",
+    "Frånvarotyp": "total_franvaro_pct",
+    "Gender": "flicka",
+    "Korrelation": -0.26,
+    "Styrka": "svag",
+    "Årskurs": "6",
+    "Läsår": "2025-2026"
+  },
+  {
+    "Ämne": "Tn",
+    "Frånvarotyp": "total_franvaro_pct",
+    "Gender": "flicka",
+    "Korrelation": null,
+    "Styrka": "saknas",
+    "Årskurs": "6",
+    "Läsår": "2025-2026"
+  },
+  {
     "Ämne": "Tk",
+    "Frånvarotyp": "total_franvaro_pct",
+    "Gender": "flicka",
+    "Korrelation": -0.24,
+    "Styrka": "svag",
+    "Årskurs": "6",
+    "Läsår": "2025-2026"
+  },
+  {
+    "Ämne": "Ovr",
     "Frånvarotyp": "total_franvaro_pct",
     "Gender": "flicka",
     "Korrelation": null,

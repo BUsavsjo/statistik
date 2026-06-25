@@ -2,88 +2,110 @@
   {
     "Ämne": "BI",
     "Frånvarotyp": "total_franvaro_pct",
+    "FrånvarotypLabel": "Total frånvaro (%)",
     "Korrelation": -0.33,
     "Styrka": "måttlig",
+    "AntalElever": 141,
     "Läsår": "2025-2026",
     "Årskurs": "6"
   },
   {
     "Ämne": "En",
     "Frånvarotyp": "total_franvaro_pct",
+    "FrånvarotypLabel": "Total frånvaro (%)",
     "Korrelation": -0.08,
     "Styrka": "ingen",
+    "AntalElever": 140,
     "Läsår": "2025-2026",
     "Årskurs": "6"
   },
   {
     "Ämne": "Hkk",
     "Frånvarotyp": "total_franvaro_pct",
+    "FrånvarotypLabel": "Total frånvaro (%)",
     "Korrelation": -0.25,
     "Styrka": "svag",
+    "AntalElever": 141,
     "Läsår": "2025-2026",
     "Årskurs": "6"
   },
   {
     "Ämne": "idh",
     "Frånvarotyp": "total_franvaro_pct",
+    "FrånvarotypLabel": "Total frånvaro (%)",
     "Korrelation": -0.57,
     "Styrka": "stark",
+    "AntalElever": 141,
     "Läsår": "2025-2026",
     "Årskurs": "6"
   },
   {
     "Ämne": "Ma",
     "Frånvarotyp": "total_franvaro_pct",
+    "FrånvarotypLabel": "Total frånvaro (%)",
     "Korrelation": -0.27,
     "Styrka": "svag",
+    "AntalElever": 141,
     "Läsår": "2025-2026",
     "Årskurs": "6"
   },
   {
     "Ämne": "mu",
     "Frånvarotyp": "total_franvaro_pct",
+    "FrånvarotypLabel": "Total frånvaro (%)",
     "Korrelation": -0.4,
     "Styrka": "måttlig",
+    "AntalElever": 141,
     "Läsår": "2025-2026",
     "Årskurs": "6"
   },
   {
     "Ämne": "No",
     "Frånvarotyp": "total_franvaro_pct",
+    "FrånvarotypLabel": "Total frånvaro (%)",
     "Korrelation": null,
     "Styrka": "saknas",
+    "AntalElever": 0,
     "Läsår": "2025-2026",
     "Årskurs": "6"
   },
   {
     "Ämne": "So",
     "Frånvarotyp": "total_franvaro_pct",
+    "FrånvarotypLabel": "Total frånvaro (%)",
     "Korrelation": -0.33,
     "Styrka": "måttlig",
+    "AntalElever": 141,
     "Läsår": "2025-2026",
     "Årskurs": "6"
   },
   {
     "Ämne": "Sv",
     "Frånvarotyp": "total_franvaro_pct",
+    "FrånvarotypLabel": "Total frånvaro (%)",
     "Korrelation": -0.37,
     "Styrka": "måttlig",
+    "AntalElever": 141,
     "Läsår": "2025-2026",
     "Årskurs": "6"
   },
   {
     "Ämne": "Sva",
     "Frånvarotyp": "total_franvaro_pct",
+    "FrånvarotypLabel": "Total frånvaro (%)",
     "Korrelation": -0.21,
     "Styrka": "svag",
+    "AntalElever": 140,
     "Läsår": "2025-2026",
     "Årskurs": "6"
   },
   {
     "Ämne": "Tk",
     "Frånvarotyp": "total_franvaro_pct",
+    "FrånvarotypLabel": "Total frånvaro (%)",
     "Korrelation": null,
     "Styrka": "saknas",
+    "AntalElever": 0,
     "Läsår": "2025-2026",
     "Årskurs": "6"
   }

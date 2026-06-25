@@ -608,10 +608,10 @@
     "kon": "Alla",
     "elevgrupp": "Alla",
     "antal_elever": 121,
-    "medel_meritvarde_16": 206.03,
-    "medel_meritvarde_17": 216.49,
+    "medel_meritvarde_16": 207.75,
+    "medel_meritvarde_17": 218.29,
     "median_meritvarde_17": 235.0,
-    "q1_meritvarde_17": 190.0,
+    "q1_meritvarde_17": 191.88,
     "q3_meritvarde_17": 262.5
   },
   {
@@ -638,11 +638,11 @@
     "kon": "pojke",
     "elevgrupp": "Alla",
     "antal_elever": 68,
-    "medel_meritvarde_16": 197.28,
-    "medel_meritvarde_17": 206.65,
-    "median_meritvarde_17": 216.25,
-    "q1_meritvarde_17": 184.38,
-    "q3_meritvarde_17": 255.62
+    "medel_meritvarde_16": 200.22,
+    "medel_meritvarde_17": 209.74,
+    "median_meritvarde_17": 217.5,
+    "q1_meritvarde_17": 186.25,
+    "q3_meritvarde_17": 256.25
   },
   {
     "lasar": "2025-2026",
@@ -668,11 +668,11 @@
     "kon": "Alla",
     "elevgrupp": "SVA",
     "antal_elever": 33,
-    "medel_meritvarde_16": 178.94,
-    "medel_meritvarde_17": 187.27,
-    "median_meritvarde_17": 200.0,
-    "q1_meritvarde_17": 167.5,
-    "q3_meritvarde_17": 237.5
+    "medel_meritvarde_16": 184.53,
+    "medel_meritvarde_17": 193.12,
+    "median_meritvarde_17": 205.0,
+    "q1_meritvarde_17": 178.75,
+    "q3_meritvarde_17": 239.38
   },
   {
     "lasar": "2025-2026",
@@ -728,11 +728,11 @@
     "kon": "pojke",
     "elevgrupp": "SVA",
     "antal_elever": 24,
-    "medel_meritvarde_16": 177.81,
-    "medel_meritvarde_17": 185.62,
-    "median_meritvarde_17": 212.5,
-    "q1_meritvarde_17": 178.75,
-    "q3_meritvarde_17": 226.25
+    "medel_meritvarde_16": 185.54,
+    "medel_meritvarde_17": 193.7,
+    "median_meritvarde_17": 215.0,
+    "q1_meritvarde_17": 183.75,
+    "q3_meritvarde_17": 230.0
   },
   {
     "lasar": "2025-2026",
@@ -878,11 +878,11 @@
     "kon": "Alla",
     "elevgrupp": "Alla",
     "antal_elever": 32,
-    "medel_meritvarde_16": 198.83,
-    "medel_meritvarde_17": 206.56,
-    "median_meritvarde_17": 223.75,
-    "q1_meritvarde_17": 173.12,
-    "q3_meritvarde_17": 275.62
+    "medel_meritvarde_16": 205.24,
+    "medel_meritvarde_17": 213.23,
+    "median_meritvarde_17": 225.0,
+    "q1_meritvarde_17": 178.75,
+    "q3_meritvarde_17": 276.25
   },
   {
     "lasar": "2025-2026",
@@ -908,11 +908,11 @@
     "kon": "pojke",
     "elevgrupp": "Alla",
     "antal_elever": 19,
-    "medel_meritvarde_16": 180.66,
-    "medel_meritvarde_17": 186.84,
-    "median_meritvarde_17": 192.5,
-    "q1_meritvarde_17": 162.5,
-    "q3_meritvarde_17": 247.5
+    "medel_meritvarde_16": 190.69,
+    "medel_meritvarde_17": 197.22,
+    "median_meritvarde_17": 200.0,
+    "q1_meritvarde_17": 169.38,
+    "q3_meritvarde_17": 258.75
   },
   {
     "lasar": "2025-2026",
@@ -938,11 +938,11 @@
     "kon": "Alla",
     "elevgrupp": "SVA",
     "antal_elever": 10,
-    "medel_meritvarde_16": 148.5,
-    "medel_meritvarde_17": 149.5,
-    "median_meritvarde_17": 175.0,
-    "q1_meritvarde_17": 144.38,
-    "q3_meritvarde_17": 194.38
+    "medel_meritvarde_16": 165.0,
+    "medel_meritvarde_17": 166.11,
+    "median_meritvarde_17": 182.5,
+    "q1_meritvarde_17": 157.5,
+    "q3_meritvarde_17": 197.5
   },
   {
     "lasar": "2025-2026",
@@ -998,10 +998,10 @@
     "kon": "pojke",
     "elevgrupp": "SVA",
     "antal_elever": 7,
-    "medel_meritvarde_16": 136.79,
-    "medel_meritvarde_17": 136.79,
-    "median_meritvarde_17": 167.5,
-    "q1_meritvarde_17": 100.0,
-    "q3_meritvarde_17": 183.75
+    "medel_meritvarde_16": 159.58,
+    "medel_meritvarde_17": 159.58,
+    "median_meritvarde_17": 175.0,
+    "q1_meritvarde_17": 160.0,
+    "q3_meritvarde_17": 184.38
   }
 ]
